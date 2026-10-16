@@ -11,11 +11,9 @@ An enterprise-grade business intelligence and analytics solution engineered to t
 
 ## Executive Dashboard Overview
 
-The visual below illustrates the verified executive layout, visual field wells, and corporate styling specifications documented in the project specifications.
+The screenshot below displays the live executive sales overview, featuring primary KPI cards, multi-period comparative analytics, and category performance rankings.
 
-![Executive Sales and Revenue Growth Dashboard](images/dashboard_overview.jpg)
-
-*Note: Visual assets are located in the `images/` directory.*
+![Executive Dashboard Overview](images/Executive%20Overview.jpeg)
 
 ---
 
@@ -23,17 +21,19 @@ The visual below illustrates the verified executive layout, visual field wells, 
 1. [Project Overview](#project-overview)
 2. [Business Problem Statement](#business-problem-statement)
 3. [Project Objectives](#project-objectives)
-4. [Dataset Description and Provenance](#dataset-description-and-provenance)
-5. [Data Preparation and Quality Assurance](#data-preparation-and-quality-assurance)
-6. [Star Schema Data Model](#star-schema-data-model)
-7. [DAX Measures and KPI Engine](#dax-measures-and-kpi-engine)
-8. [Interactive Web Application](#interactive-web-application)
-9. [Executive Findings and Evidence](#executive-findings-and-evidence)
-10. [Predictive Forecasting Methodology](#predictive-forecasting-methodology)
-11. [Repository Structure](#repository-structure)
-12. [Setup and Reproduction Guide](#setup-and-reproduction-guide)
-13. [Security, Governance, and Credential Management](#security-governance-and-credential-management)
-14. [Documentation Library](#documentation-library)
+4. [Visual Interface Gallery](#visual-interface-gallery)
+5. [Dataset Description and Provenance](#dataset-description-and-provenance)
+6. [Data Preparation and Quality Assurance](#data-preparation-and-quality-assurance)
+7. [Star Schema Data Model](#star-schema-data-model)
+8. [DAX Measures and KPI Engine](#dax-measures-and-kpi-engine)
+9. [Interactive Web Application](#interactive-web-application)
+10. [Executive Findings and Evidence](#executive-findings-and-evidence)
+11. [Predictive Forecasting Methodology](#predictive-forecasting-methodology)
+12. [Financial ROI Framework](#financial-roi-framework)
+13. [Repository Structure](#repository-structure)
+14. [Setup and Reproduction Guide](#setup-and-reproduction-guide)
+15. [Security, Governance, and Credential Management](#security-governance-and-credential-management)
+16. [Documentation Library](#documentation-library)
 
 ---
 
@@ -58,6 +58,42 @@ Built upon a normalized 1-Fact to 5-Dimension Star Schema, this solution elimina
 * **Dynamic Time Intelligence:** Formulate defensive DAX measures supporting period-over-period and year-over-year comparative analytics across continuous calendar periods (2024 to 2025).
 * **Predictive Horizon Modeling:** Engineer a statistical time-series forecasting pipeline generating 6-month forward projections with 95% confidence intervals.
 * **Executive Decision Support:** Deliver an intuitive, responsive dashboard interface optimized for rapid cross-filtering and drill-down.
+
+---
+
+## Visual Interface Gallery
+
+This section illustrates the core analytical modules implemented across the solution.
+
+### 1. Executive Overview and KPI Cards
+Displays high-level executive performance indicators, Total Sales ($1.58M), YoY Revenue Growth (+31.8%), Average Order Value ($2,629), and Total Orders (600).
+
+![Executive Overview](images/Executive%20Overview.jpeg)
+
+### 2. Monthly Revenue Velocity, Category Analysis, and Product Matrix
+Examines monthly revenue trends, categorical distribution, and granular SKU metrics.
+
+![Monthly Revenue Velocity and Product Matrix](images/Monthly%20Revenue%20Velocity,Revenue%20by%20Catagory,%20Product%20performance%20Matrix.jpeg)
+
+### 3. Dynamic Multi-Dimensional Slicers
+Enables interactive slicing across Year, Region, Product Category, and Customer Segment.
+
+![Interactive Multi-Dimensional Slicers](images/Different%20Slicers%20like%20Year,%20Region,%20Catagory,%20Customer%20Segment.jpeg)
+
+### 4. Product Matrix and Profitability Explorer
+Detailed drill-down across unit volumes, standard costs, selling prices, and gross margins.
+
+![Product Matrix and Profitability Explorer](images/Product%20Matrix,%20Profitability%20Explorer.jpeg)
+
+### 5. Predictive Time-Series Forecasting
+Out-of-sample validated Holt-Winters Damped ETS projection for H1 2026 revenue planning.
+
+![Predictive Time-Series Forecasting](images/Predictive%20Forecasting.jpeg)
+
+### 6. Live Economic ROI Model
+Financial impact framework estimating net present value, payback horizon, and labor savings.
+
+![Live ROI Model](images/Live%20ROI%20Model.jpeg)
 
 ---
 
@@ -149,6 +185,8 @@ In addition to Power BI modeling specifications, this project includes an intera
   * Filter toolbar supporting live slicing across Year, Region, and Product Category.
   * Comprehensive SKU performance table with margin benchmarks.
 
+![Interactive Slicers and Controls](images/Different%20Slicers%20like%20Year,%20Region,%20Catagory,%20Customer%20Segment.jpeg)
+
 ---
 
 ## Executive Findings and Evidence
@@ -169,6 +207,18 @@ Engineered in `scripts/forecast_engine.py` and documented in `docs/forecasting_a
   * Naive Prior-Year Benchmark: MAE $38,675.00 | RMSE $43,488.47 | MAPE 41.13%
   * Validation Conclusion: Algorithmic modeling outperformed the naive prior-year baseline by 10.97 percentage points.
 * **H1 2026 Forecast:** Projects $476,131.06 across January to June 2026 (95% Confidence Interval: $188,465.06 to $763,797.05). Output exported to `data/processed/revenue_forecast_h1_2026.csv`.
+
+![Predictive Forecasting Output](images/Predictive%20Forecasting.jpeg)
+
+---
+
+## Financial ROI Framework
+Documented in `documentation/business_case/roi_framework.md`:
+* **Annualized Benefit:** Modeled based on automated reporting labor recovery and inventory stockout mitigation.
+* **Payback Horizon:** Estimated within 4.2 to 6.8 months under standard enterprise deployment parameters.
+* **Sensitivity Analysis:** Evaluates conservative, expected, and aggressive scenarios to ensure robust capital budgeting.
+
+![Financial ROI Model](images/Live%20ROI%20Model.jpeg)
 
 ---
 
@@ -194,7 +244,13 @@ Engineered in `scripts/forecast_engine.py` and documented in `docs/forecasting_a
 |   |-- github_deployment_guide.md              # Version control protocol
 |   `-- publishing_guide.md                     # Power BI Service configuration guide
 |-- images/                                     # Visual assets and dashboard screenshots
-|   |-- .gitkeep
+|   |-- Different Slicers like Year, Region...  # Slicers and filter controls preview
+|   |-- Executive Overview.jpeg                 # Executive dashboard screenshot
+|   |-- GitHub Screenshot.jpeg                  # Project repository reference
+|   |-- Live ROI Model.jpeg                     # Business impact and ROI model
+|   |-- Monthly Revenue Velocity...             # Velocity and category breakdown
+|   |-- Predictive Forecasting.jpeg             # Holt-Winters ETS projection preview
+|   |-- Product Matrix, Profitability...        # SKU-level gross margin analysis
 |   `-- dashboard_overview.jpg                  # High-fidelity dashboard interface preview
 |-- screenshots/                                # Archive screenshots
 `-- scripts/                                    # Automated Python ETL, models, and test suites
