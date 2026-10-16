@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+node_modules/
+
+# Local environment & secrets
+.env
+*.env
+*.local
+credentials.json
+client_secrets.json
+
+# Logs and transient execution files
+*.log
+logs/
+scratch/
+.system_generated/
+*.bak
+
+# Power BI local cache and user state
+*.tmp
+*.temp
+*AutoRecovery*
+*.pbi.cache
+*.pbix.cache
+
+# IDE / Operating System Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

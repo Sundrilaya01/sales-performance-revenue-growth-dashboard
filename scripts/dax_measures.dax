@@ -1,0 +1,53 @@
+// =========================================================================
+// POWER BI DAX MEASURES CODE BASE
+// Project: Sales Performance & Revenue Growth Dashboard
+// Recommended: Create a blank disconnected table named '_Measures'
+// and place these explicit DAX measures inside it.
+// =========================================================================
+
+// --- 1. CORE MEASURES ---
+
+Total Sales = 
+SUM(fact_sales[sales_amount])
+
+Total Quantity = 
+SUM(fact_sales[units_sold])
+
+Total Orders = 
+DISTINCTCOUNT(fact_sales[order_id])
+
+Average Order Value = 
+DIVIDE([Total Sales], [Total Orders], BLANK())
+
+Sales Previous Year = 
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR(dim_date[date])
+)
+
+Revenue Growth % = 
+VAR CurrentSales = [Total Sales]
+VAR PriorSales = [Sales Previous Year]
+RETURN
+    IF(
+        ISBLANK(PriorSales) || PriorSales == 0,
+        BLANK(),
+        DIVIDE(CurrentSales - PriorSales, PriorSales)
+    )
+
+// --- 2. OPTIONAL MEASURES (COST, PROFIT & TARGETS) ---
+
+Total Cost = 
+SUM(fact_sales[cost])
+
+Total Profit = 
+[Total Sales] - [Total Cost]
+
+Profit Margin % = 
+DIVIDE([Total Profit], [Total Sales], BLANK())
+
+Target Sales = 
+SUM(fact_sales[target_sales])
+
+Sales Achievement % = 
+DIVIDE([Total Sales], [Target Sales], BLANK())

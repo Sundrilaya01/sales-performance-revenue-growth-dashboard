@@ -1,0 +1,48 @@
+{
+  "name": "Executive Sales & Revenue Theme",
+  "dataColors": [
+    "#1E3A8A",
+    "#0D9488",
+    "#3B82F6",
+    "#10B981",
+    "#F59E0B",
+    "#6366F1",
+    "#EC4899",
+    "#8B5CF6"
+  ],
+  "background": "#F8FAFC",
+  "foreground": "#0F172A",
+  "tableAccent": "#1E3A8A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspace": [{ "color": { "solid": { "color": "#F8FAFC" } } }],
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E2E8F0" } }, "radius": 8 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#000000" } }, "transparency": 95, "angle": 90, "shadowDistance": 4, "shadowBlur": 8 }],
+        "title": [{
+          "show": true,
+          "fontFamily": "Segoe UI Semibold",
+          "fontSize": 12,
+          "fontColor": { "solid": { "color": "#1E293B" } },
+          "alignment": "Left"
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{
+          "color": { "solid": { "color": "#0F172A" } },
+          "fontSize": 26,
+          "fontFamily": "Segoe UI Bold"
+        }],
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#64748B" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI"
+        }]
+      }
+    }
+  }
+}

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Performance & Revenue Growth Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Chart.js CDN for interactive visual rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="brand-icon">BI</div>
+      <div class="brand-title">
+        <h1>Sales Performance & Revenue Growth</h1>
+        <p>Enterprise Commercial Analytics & Executive Intelligence</p>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="tab-overview">📊 Executive Overview</button>
+      <button class="tab-btn" data-tab="tab-forecasting">📈 Predictive Forecasting</button>
+      <button class="tab-btn" data-tab="tab-products">📦 Product Matrix</button>
+      <button class="tab-btn" data-tab="tab-roi">💰 Live ROI Model</button>
+    </nav>
+
+    <div class="header-actions">
+      <button id="themeToggleBtn" class="theme-btn" title="Toggle Dark/Light Mode">🌓 Theme</button>
+      <button id="resetFiltersBtn" class="reset-btn" title="Reset all slicers">🔄 Reset</button>
+    </div>
+  </header>
+
+  <!-- Filter Slicer Toolbar -->
+  <section class="slicer-toolbar">
+    <span class="slicer-label">🔍 Slicers:</span>
+
+    <div class="slicer-group">
+      <label for="yearSlicer">Year</label>
+      <select id="yearSlicer">
+        <option value="All">All Years (2024-2025)</option>
+        <option value="2025">2025 (Latest)</option>
+        <option value="2024">2024 (Prior)</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <label for="regionSlicer">Region</label>
+      <select id="regionSlicer">
+        <option value="All">All Regions (4)</option>
+        <option value="East">East Region</option>
+        <option value="South">South Region</option>
+        <option value="North">North Region</option>
+        <option value="West">West Region</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <label for="categorySlicer">Category</label>
+      <select id="categorySlicer">
+        <option value="All">All Categories (4)</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Furniture">Furniture</option>
+        <option value="Office Supplies">Office Supplies</option>
+        <option value="Accessories">Accessories</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <label for="segmentSlicer">Customer Segment</label>
+      <select id="segmentSlicer">
+        <option value="All">All Customers</option>
+        <option value="Existing">Existing Accounts</option>
+        <option value="New">New Acquisitions</option>
+      </select>
+    </div>
+
+    <div class="slicer-group">
+      <span class="badge-tag" id="activeFilterBadge">Showing All 600 Orders</span>
+    </div>
+  </section>
+
+  <!-- Main Canvas -->
+  <main class="dashboard-canvas">
+
+    <!-- TAB 1: EXECUTIVE OVERVIEW -->
+    <div id="tab-overview" class="tab-pane active">
+
+      <!-- Top Row KPI Cards -->
+      <section class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Total Sales (Revenue)</span>
+            <span class="kpi-icon">💵</span>
+          </div>
+          <div class="kpi-value" id="kpiTotalSales">$1,577,535.00</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge positive" id="kpiTargetPct">95.4% Quota</span>
+            <span id="kpiTargetSub">Target: $1.65M</span>
+          </div>
+        </div>
+
+        <div class="kpi-card success">
+          <div class="kpi-header">
+            <span class="kpi-title">Revenue Growth % (YoY)</span>
+            <span class="kpi-icon">📈</span>
+          </div>
+          <div class="kpi-value" id="kpiGrowthPct">+31.8%</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge positive" id="kpiGrowthBadge">Accelerating</span>
+            <span id="kpiPriorSalesSub">vs. Prior Year</span>
+          </div>
+        </div>
+
+        <div class="kpi-card secondary">
+          <div class="kpi-header">
+            <span class="kpi-title">Average Order Value (AOV)</span>
+            <span class="kpi-icon">🏷️</span>
+          </div>
+          <div class="kpi-value" id="kpiAov">$2,629.23</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge positive">+19.2%</span>
+            <span>Per Order Basket Size</span>
+          </div>
+        </div>
+
+        <div class="kpi-card warning">
+          <div class="kpi-header">
+            <span class="kpi-title">Total Orders & Volume</span>
+            <span class="kpi-icon">📦</span>
+          </div>
+          <div class="kpi-value" id="kpiTotalOrders">600</div>
+          <div class="kpi-footer">
+            <span class="badge-tag" id="kpiUnitsSub">5,708 Units Sold</span>
+            <span>100% Fulfilled</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Total Gross Profit</span>
+            <span class="kpi-icon">💎</span>
+          </div>
+          <div class="kpi-value" id="kpiTotalProfit">$641,825.00</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge positive" id="kpiMarginPct">40.7% Margin</span>
+            <span id="kpiCostSub">COGS: $935.7K</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Middle Row: Monthly Trend & Categorical / Regional Charts -->
+      <section class="charts-grid-middle">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Monthly Revenue Velocity & Prior-Year Benchmark</h3>
+              <p>24-Month Chronological Comparison (2024 vs. 2025)</p>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="monthlyTrendChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Revenue by Category</h3>
+              <p>Volume vs. Margin Contribution</p>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="categoryChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Revenue by Region</h3>
+              <p>Territorial Revenue & Distribution</p>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="regionChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Row: Product Matrix & Customer Segment Mix -->
+      <section class="charts-grid-bottom">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Product Performance Matrix</h3>
+              <p>12 SKUs with Price, Volume, Revenue, COGS, and Margin %</p>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="productMatrixTable">
+              <thead>
+                <tr>
+                  <th>SKU Code</th>
+                  <th>Product Name</th>
+                  <th>Category</th>
+                  <th>Units</th>
+                  <th>Revenue</th>
+                  <th>COGS</th>
+                  <th>Profit</th>
+                  <th>Margin %</th>
+                </tr>
+              </thead>
+              <tbody id="productMatrixBody">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Customer Tier & Sales Channel</h3>
+              <p>Existing vs. New / Online vs. Offline</p>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="segmentChannelChart"></canvas>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- TAB 2: PREDICTIVE FORECASTING -->
+    <div id="tab-forecasting" class="tab-pane">
+      <div class="forecast-container">
+        <div class="card-panel">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Predictive Revenue Horizon (H1 2026 Forecast)</h3>
+              <p>Holt-Winters Damped Exponential Smoothing with 95% Confidence Bounds</p>
+            </div>
+            <span class="badge-tag">Model: ETS_HoltWinters_Damped</span>
+          </div>
+
+          <div class="metric-strip">
+            <div class="metric-box">
+              <div class="num">$476,131.06</div>
+              <div class="desc">Cumulative H1 2026 Projected Revenue</div>
+            </div>
+            <div class="metric-box">
+              <div class="num">$79,355.18</div>
+              <div class="desc">Projected Monthly Mean Run-Rate</div>
+            </div>
+            <div class="metric-box">
+              <div class="num">30.16% MAPE</div>
+              <div class="desc">Holdout Backtest Accuracy (+10.97 pts vs Baseline)</div>
+            </div>
+          </div>
+
+          <div class="chart-container" style="min-height: 380px;">
+            <canvas id="forecastChart"></canvas>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <div class="chart-header">
+            <div class="chart-title">
+              <h3>Monthly Forecast Projections</h3>
+              <p>Confidence Intervals (January - June 2026)</p>
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table" id="forecastTable">
+              <thead>
+                <tr>
+                  <th>Month</th>
+                  <th>Predicted</th>
+                  <th>Lower 95%</th>
+                  <th>Upper 95%</th>
+                </tr>
+              </thead>
+              <tbody id="forecastTableBody">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+
+          <div style="margin-top: 1.5rem; font-size: 0.8rem; color: var(--text-muted); line-height: 1.6;">
+            <strong>Governance Note:</strong> Prediction intervals widen progressively from &plusmn;$41.1K in Month 1 to &plusmn;$54.3K in Month 6 reflecting compounding temporal variance.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: PRODUCT PERFORMANCE MATRIX -->
+    <div id="tab-products" class="tab-pane">
+      <div class="card-panel">
+        <div class="chart-header">
+          <div class="chart-title">
+            <h3>Comprehensive Product Catalog & Profitability Explorer</h3>
+            <p>12 SKUs with Unit Costs, Margins, and Total Performance</p>
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table" id="fullProductTable">
+            <thead>
+              <tr>
+                <th>Product SKU</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Unit Price</th>
+                <th>Unit Cost</th>
+                <th>Unit Margin</th>
+                <th>Units Sold</th>
+                <th>Total Revenue</th>
+                <th>Gross Profit</th>
+                <th>Profit Margin</th>
+              </tr>
+            </thead>
+            <tbody id="fullProductTableBody">
+              <!-- Injected via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: LIVE ROI CALCULATOR -->
+    <div id="tab-roi" class="tab-pane">
+      <div class="card-panel">
+        <div class="chart-header">
+          <div class="chart-title">
+            <h3>Interactive BI Reporting ROI & Payback Calculator</h3>
+            <p>Adjust inputs to model labor cost savings and capital investment payback</p>
+          </div>
+        </div>
+
+        <div class="roi-calculator-grid">
+          <div class="roi-inputs">
+            <div class="form-group">
+              <label for="inputCurrentHours">Current Monthly Reporting Hours (Team Total)</label>
+              <input type="number" id="inputCurrentHours" value="80" min="10" max="500">
+            </div>
+
+            <div class="form-group">
+              <label for="inputPostHours">Post-Automation Monthly Reporting Hours</label>
+              <input type="number" id="inputPostHours" value="32" min="0" max="500">
+            </div>
+
+            <div class="form-group">
+              <label for="inputHourlyRate">Fully Loaded Hourly Labor Rate ($/hour)</label>
+              <input type="number" id="inputHourlyRate" value="65" min="20" max="250">
+            </div>
+
+            <div class="form-group">
+              <label for="inputInitialCost">Initial Project Implementation Investment ($)</label>
+              <input type="number" id="inputInitialCost" value="18000" min="1000" max="100000">
+            </div>
+
+            <div class="form-group">
+              <label for="inputRecurringCost">Recurring Monthly Cloud & Maintenance ($/month)</label>
+              <input type="number" id="inputRecurringCost" value="600" min="0" max="10000">
+            </div>
+          </div>
+
+          <div class="roi-results-card">
+            <div>
+              <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Calculated Financial Returns</h4>
+              <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">Based on standard capital investment payback equations</p>
+
+              <div class="roi-kpi-highlight">
+                <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Simple Payback Period</div>
+                <div class="payback" id="roiPaybackMonths">7.1 Months</div>
+                <div style="font-size: 0.8rem; color: var(--success); font-weight: 600;" id="roiFirstYearRoi">+68.0% First-Year ROI</div>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-size: 0.85rem;">
+                <span style="color: var(--text-secondary);">Monthly Hours Saved:</span>
+                <strong id="roiHoursSaved" style="color: var(--text-primary);">48.0 Hours</strong>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-size: 0.85rem;">
+                <span style="color: var(--text-secondary);">Gross Monthly Labor Saved:</span>
+                <strong id="roiGrossLaborSaved" style="color: var(--text-primary);">$3,120.00 / mo</strong>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--border-color); font-size: 0.85rem;">
+                <span style="color: var(--text-secondary);">Net Monthly Benefit:</span>
+                <strong id="roiNetMonthlyBenefit" style="color: var(--success);">$2,520.00 / mo</strong>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; font-size: 0.85rem;">
+                <span style="color: var(--text-secondary);">Annualized Net Return (Year 1):</span>
+                <strong id="roiFirstYearNet" style="color: var(--success);">$12,240.00</strong>
+              </div>
+            </div>
+
+            <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 1rem;">
+              *Calculated dynamically. Formula: Payback = Initial Investment / (Monthly Labor Saved - Recurring Costs).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Load Data Payload and Main Controller -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

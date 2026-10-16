@@ -1,0 +1,13 @@
+product_id,product_name,category,unit_price,unit_cost,unit_margin,target_margin_pct
+PRD-ACC-001,Mechanical Ergonomic Keyboard,Accessories,135.0,65.0,70.0,51.85
+PRD-ACC-002,Precision Wireless Mouse,Accessories,75.0,35.0,40.0,53.33
+PRD-ACC-003,USB-C Dual-Display Dock,Accessories,185.0,95.0,90.0,48.65
+PRD-ELE-001,"4K IPS Monitor 27""",Electronics,450.0,290.0,160.0,35.56
+PRD-ELE-002,UltraBook Pro 15,Electronics,1250.0,850.0,400.0,32.0
+PRD-ELE-003,Wireless ANC Headphones,Electronics,250.0,140.0,110.0,44.0
+PRD-FUR-001,Electric Standing Desk,Furniture,680.0,410.0,270.0,39.71
+PRD-FUR-002,Executive Ergonomic Chair,Furniture,380.0,220.0,160.0,42.11
+PRD-FUR-003,Modular Conference Table,Furniture,1150.0,720.0,430.0,37.39
+PRD-OFF-001,Heavy-Duty Paper Shredder,Office Supplies,165.0,95.0,70.0,42.42
+PRD-OFF-002,High-Capacity Toner Cartridge,Office Supplies,95.0,45.0,50.0,52.63
+PRD-OFF-003,Laser Multifunction Printer,Office Supplies,340.0,215.0,125.0,36.76

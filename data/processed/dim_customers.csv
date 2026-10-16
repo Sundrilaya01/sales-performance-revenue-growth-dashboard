@@ -1,0 +1,49 @@
+customer_id,country,region,state_city,customer_segment,sales_channel
+CUST-0001,United States,East,Charlotte,Existing,Offline
+CUST-0002,United States,East,Charlotte,Existing,Online
+CUST-0003,United States,East,Charlotte,New,Offline
+CUST-0004,United States,East,Charlotte,New,Online
+CUST-0005,United States,East,Philadelphia,Existing,Offline
+CUST-0006,United States,East,Philadelphia,Existing,Online
+CUST-0007,United States,East,Philadelphia,New,Offline
+CUST-0008,United States,East,Philadelphia,New,Online
+CUST-0009,United States,East,Washington DC,Existing,Offline
+CUST-0010,United States,East,Washington DC,Existing,Online
+CUST-0011,United States,East,Washington DC,New,Offline
+CUST-0012,United States,East,Washington DC,New,Online
+CUST-0013,United States,North,Boston,Existing,Offline
+CUST-0014,United States,North,Boston,Existing,Online
+CUST-0015,United States,North,Boston,New,Offline
+CUST-0016,United States,North,Boston,New,Online
+CUST-0017,United States,North,Chicago,Existing,Offline
+CUST-0018,United States,North,Chicago,Existing,Online
+CUST-0019,United States,North,Chicago,New,Offline
+CUST-0020,United States,North,Chicago,New,Online
+CUST-0021,United States,North,New York,Existing,Offline
+CUST-0022,United States,North,New York,Existing,Online
+CUST-0023,United States,North,New York,New,Offline
+CUST-0024,United States,North,New York,New,Online
+CUST-0025,United States,South,Atlanta,Existing,Offline
+CUST-0026,United States,South,Atlanta,Existing,Online
+CUST-0027,United States,South,Atlanta,New,Offline
+CUST-0028,United States,South,Atlanta,New,Online
+CUST-0029,United States,South,Dallas,Existing,Offline
+CUST-0030,United States,South,Dallas,Existing,Online
+CUST-0031,United States,South,Dallas,New,Offline
+CUST-0032,United States,South,Dallas,New,Online
+CUST-0033,United States,South,Miami,Existing,Offline
+CUST-0034,United States,South,Miami,Existing,Online
+CUST-0035,United States,South,Miami,New,Offline
+CUST-0036,United States,South,Miami,New,Online
+CUST-0037,United States,West,Los Angeles,Existing,Offline
+CUST-0038,United States,West,Los Angeles,Existing,Online
+CUST-0039,United States,West,Los Angeles,New,Offline
+CUST-0040,United States,West,Los Angeles,New,Online
+CUST-0041,United States,West,San Francisco,Existing,Offline
+CUST-0042,United States,West,San Francisco,Existing,Online
+CUST-0043,United States,West,San Francisco,New,Offline
+CUST-0044,United States,West,San Francisco,New,Online
+CUST-0045,United States,West,Seattle,Existing,Offline
+CUST-0046,United States,West,Seattle,Existing,Online
+CUST-0047,United States,West,Seattle,New,Offline
+CUST-0048,United States,West,Seattle,New,Online

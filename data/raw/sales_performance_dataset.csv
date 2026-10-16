@@ -1,0 +1,601 @@
+Date,Month,Quarter,Year,Region,State/City,Sales Executive Name,Product Category,Product Name,Units Sold,Selling Price,Revenue,Cost,Profit,Profit Margin %,Customer Type,Sales Channel,Target Sales,Actual Sales,Achievement %,Growth %
+2024-01-01,January,Q1,2024,East,Washington DC,Emily Watson,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Offline,2226.44,2380.0,106.9,33.21
+2024-01-02,January,Q1,2024,East,Philadelphia,James Wilson,Electronics,Wireless ANC Headphones,5,250.0,1250.0,700.0,550.0,44.0,Existing,Online,1539.2,1250.0,81.21,-70.66
+2024-01-03,January,Q1,2024,West,Seattle,Chloe Bennett,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,New,Offline,769.21,680.0,88.4,-76.24
+2024-01-05,January,Q1,2024,South,Atlanta,Carlos Santana,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Offline,1322.53,1360.0,102.83,-52.48
+2024-01-06,January,Q1,2024,North,New York,David Miller,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Offline,1612.89,1520.0,94.24,-46.89
+2024-01-06,January,Q1,2024,South,Dallas,Carlos Santana,Office Supplies,High-Capacity Toner Cartridge,25,95.0,2375.0,1125.0,1250.0,52.63,New,Offline,2323.86,2375.0,102.2,32.93
+2024-01-10,January,Q1,2024,East,Philadelphia,James Wilson,Accessories,Precision Wireless Mouse,28,75.0,2100.0,980.0,1120.0,53.33,New,Online,2610.82,2100.0,80.43,16.63
+2024-01-13,January,Q1,2024,East,Washington DC,James Wilson,Electronics,"4K IPS Monitor 27""",10,450.0,4500.0,2900.0,1600.0,35.56,Existing,Offline,4854.53,4500.0,92.7,5.61
+2024-01-13,January,Q1,2024,West,San Francisco,Chloe Bennett,Electronics,Wireless ANC Headphones,7,250.0,1750.0,980.0,770.0,44.0,Existing,Online,2162.88,1750.0,80.91,-58.93
+2024-01-13,January,Q1,2024,North,Boston,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,New,Offline,2844.8,3060.0,107.56,71.28
+2024-01-13,January,Q1,2024,South,Miami,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,11,165.0,1815.0,1045.0,770.0,42.42,Existing,Offline,1857.0,1815.0,97.74,1.59
+2024-01-13,January,Q1,2024,East,Washington DC,Emily Watson,Office Supplies,Laser Multifunction Printer,8,340.0,2720.0,1720.0,1000.0,36.76,Existing,Offline,3141.85,2720.0,86.57,52.24
+2024-01-17,January,Q1,2024,South,Miami,Marcus Vance,Accessories,Precision Wireless Mouse,31,75.0,2325.0,1085.0,1240.0,53.33,Existing,Online,2127.33,2325.0,109.29,29.13
+2024-01-17,January,Q1,2024,East,Charlotte,James Wilson,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Online,1465.97,1360.0,92.77,-52.48
+2024-01-17,January,Q1,2024,South,Dallas,Marcus Vance,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Online,1575.71,1360.0,86.31,-52.48
+2024-01-20,January,Q1,2024,South,Atlanta,Marcus Vance,Furniture,Executive Ergonomic Chair,2,380.0,760.0,440.0,320.0,42.11,Existing,Online,757.44,760.0,100.34,-73.44
+2024-01-21,January,Q1,2024,West,San Francisco,Chloe Bennett,Accessories,USB-C Dual-Display Dock,9,185.0,1665.0,855.0,810.0,48.65,Existing,Online,1533.44,1665.0,108.58,-7.53
+2024-01-28,January,Q1,2024,North,Boston,David Miller,Electronics,Wireless ANC Headphones,17,250.0,4250.0,2380.0,1870.0,44.0,New,Online,4169.0,4250.0,101.94,-0.25
+2024-02-02,February,Q1,2024,West,Los Angeles,Alex Rivera,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,New,Offline,1954.3,1900.0,97.22,-33.61
+2024-02-06,February,Q1,2024,North,New York,David Miller,Office Supplies,Heavy-Duty Paper Shredder,11,165.0,1815.0,1045.0,770.0,42.42,New,Offline,2232.71,1815.0,81.29,1.59
+2024-02-06,February,Q1,2024,East,Philadelphia,Emily Watson,Electronics,Wireless ANC Headphones,5,250.0,1250.0,700.0,550.0,44.0,Existing,Offline,1239.06,1250.0,100.88,-70.66
+2024-02-08,February,Q1,2024,South,Miami,Carlos Santana,Electronics,UltraBook Pro 15,6,1250.0,7500.0,5100.0,2400.0,32.0,Existing,Online,6428.75,7500.0,116.66,76.02
+2024-02-10,February,Q1,2024,East,Washington DC,Emily Watson,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,Existing,Online,2477.65,2040.0,82.34,14.18
+2024-02-14,February,Q1,2024,East,Washington DC,Emily Watson,Electronics,UltraBook Pro 15,8,1250.0,10000.0,6800.0,3200.0,32.0,Existing,Online,8931.85,10000.0,111.96,134.7
+2024-02-14,February,Q1,2024,East,Charlotte,James Wilson,Accessories,Precision Wireless Mouse,34,75.0,2550.0,1190.0,1360.0,53.33,Existing,Online,2844.46,2550.0,89.65,41.63
+2024-02-17,February,Q1,2024,North,Boston,David Miller,Electronics,UltraBook Pro 15,2,1250.0,2500.0,1700.0,800.0,32.0,Existing,Online,2581.52,2500.0,96.84,-41.33
+2024-02-20,February,Q1,2024,West,Seattle,Alex Rivera,Accessories,USB-C Dual-Display Dock,14,185.0,2590.0,1330.0,1260.0,48.65,New,Online,2461.15,2590.0,105.24,43.85
+2024-02-20,February,Q1,2024,East,Washington DC,Emily Watson,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,Existing,Online,9362.92,8750.0,93.45,105.36
+2024-02-21,February,Q1,2024,East,Washington DC,James Wilson,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,New,Online,3072.15,3400.0,110.67,18.8
+2024-02-22,February,Q1,2024,East,Charlotte,James Wilson,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Online,1279.6,1150.0,89.87,-59.82
+2024-02-25,February,Q1,2024,South,Atlanta,Marcus Vance,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,Existing,Offline,5725.43,4600.0,80.34,60.73
+2024-02-25,February,Q1,2024,North,Chicago,Sarah Jenkins,Electronics,"4K IPS Monitor 27""",6,450.0,2700.0,1740.0,960.0,35.56,Existing,Online,3301.12,2700.0,81.79,-36.63
+2024-02-26,February,Q1,2024,North,New York,David Miller,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Online,1364.95,1520.0,111.36,-46.89
+2024-02-27,February,Q1,2024,South,Miami,Carlos Santana,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,Existing,Offline,3131.76,2660.0,84.94,-7.05
+2024-02-27,February,Q1,2024,East,Charlotte,Emily Watson,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Online,3216.89,2720.0,84.55,-4.96
+2024-02-29,February,Q1,2024,North,Chicago,David Miller,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Online,1769.41,1520.0,85.9,-46.89
+2024-03-01,March,Q1,2024,South,Dallas,Marcus Vance,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,Existing,Offline,1966.76,2040.0,103.72,14.18
+2024-03-01,March,Q1,2024,South,Atlanta,Marcus Vance,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Online,1200.79,1150.0,95.77,-59.82
+2024-03-02,March,Q1,2024,North,Chicago,Sarah Jenkins,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,New,Online,3009.98,2720.0,90.37,-4.96
+2024-03-02,March,Q1,2024,East,Charlotte,Emily Watson,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Offline,2425.64,2380.0,98.12,33.21
+2024-03-04,March,Q1,2024,South,Miami,Marcus Vance,Office Supplies,Heavy-Duty Paper Shredder,8,165.0,1320.0,760.0,560.0,42.42,Existing,Offline,1320.96,1320.0,99.93,-26.12
+2024-03-05,March,Q1,2024,North,Chicago,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,20,135.0,2700.0,1300.0,1400.0,51.85,Existing,Offline,2609.57,2700.0,103.47,49.96
+2024-03-05,March,Q1,2024,North,Boston,Sarah Jenkins,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,New,Online,3858.07,3450.0,89.42,20.55
+2024-03-05,March,Q1,2024,West,San Francisco,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,5,165.0,825.0,475.0,350.0,42.42,Existing,Online,912.75,825.0,90.39,-53.82
+2024-03-06,March,Q1,2024,West,Seattle,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,12,165.0,1980.0,1140.0,840.0,42.42,New,Offline,2431.77,1980.0,81.42,10.83
+2024-03-07,March,Q1,2024,North,Chicago,David Miller,Office Supplies,High-Capacity Toner Cartridge,28,95.0,2660.0,1260.0,1400.0,52.63,Existing,Offline,2722.42,2660.0,97.71,48.89
+2024-03-08,March,Q1,2024,East,Washington DC,James Wilson,Office Supplies,Heavy-Duty Paper Shredder,9,165.0,1485.0,855.0,630.0,42.42,Existing,Offline,1306.06,1485.0,113.7,-16.88
+2024-03-08,March,Q1,2024,East,Charlotte,James Wilson,Electronics,Wireless ANC Headphones,19,250.0,4750.0,2660.0,2090.0,44.0,Existing,Online,4403.75,4750.0,107.86,11.48
+2024-03-09,March,Q1,2024,North,Chicago,David Miller,Office Supplies,Heavy-Duty Paper Shredder,8,165.0,1320.0,760.0,560.0,42.42,Existing,Offline,1606.26,1320.0,82.18,-26.12
+2024-03-09,March,Q1,2024,North,New York,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,Existing,Online,920.09,1020.0,110.86,-42.91
+2024-03-10,March,Q1,2024,East,Philadelphia,Emily Watson,Accessories,USB-C Dual-Display Dock,13,185.0,2405.0,1235.0,1170.0,48.65,New,Online,2369.93,2405.0,101.48,33.57
+2024-03-11,March,Q1,2024,West,Seattle,Chloe Bennett,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Online,1069.81,1150.0,107.5,-59.82
+2024-03-11,March,Q1,2024,South,Dallas,Carlos Santana,Electronics,Wireless ANC Headphones,17,250.0,4250.0,2380.0,1870.0,44.0,Existing,Offline,4652.35,4250.0,91.35,-0.25
+2024-03-11,March,Q1,2024,South,Miami,Marcus Vance,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,Existing,Offline,2895.12,2660.0,91.88,-7.05
+2024-03-12,March,Q1,2024,East,Washington DC,James Wilson,Accessories,Mechanical Ergonomic Keyboard,21,135.0,2835.0,1365.0,1470.0,51.85,New,Online,3404.31,2835.0,83.28,57.46
+2024-03-13,March,Q1,2024,East,Philadelphia,Emily Watson,Office Supplies,Heavy-Duty Paper Shredder,4,165.0,660.0,380.0,280.0,42.42,New,Online,662.73,660.0,99.59,-63.06
+2024-03-15,March,Q1,2024,North,Chicago,Sarah Jenkins,Electronics,"4K IPS Monitor 27""",10,450.0,4500.0,2900.0,1600.0,35.56,New,Online,5504.87,4500.0,81.75,5.61
+2024-03-15,March,Q1,2024,West,Seattle,Alex Rivera,Accessories,Precision Wireless Mouse,27,75.0,2025.0,945.0,1080.0,53.33,Existing,Online,1840.78,2025.0,110.01,12.47
+2024-03-15,March,Q1,2024,North,Boston,Sarah Jenkins,Electronics,UltraBook Pro 15,5,1250.0,6250.0,4250.0,2000.0,32.0,New,Offline,7684.2,6250.0,81.34,46.69
+2024-03-15,March,Q1,2024,East,Charlotte,James Wilson,Accessories,USB-C Dual-Display Dock,6,185.0,1110.0,570.0,540.0,48.65,New,Online,1376.78,1110.0,80.62,-38.35
+2024-03-15,March,Q1,2024,North,New York,David Miller,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,Existing,Online,2776.85,3060.0,110.2,71.28
+2024-03-19,March,Q1,2024,North,Boston,David Miller,Office Supplies,High-Capacity Toner Cartridge,23,95.0,2185.0,1035.0,1150.0,52.63,Existing,Offline,2640.25,2185.0,82.76,22.3
+2024-03-19,March,Q1,2024,South,Miami,Carlos Santana,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Online,2131.0,2380.0,111.68,33.21
+2024-03-19,March,Q1,2024,East,Philadelphia,Emily Watson,Electronics,Wireless ANC Headphones,8,250.0,2000.0,1120.0,880.0,44.0,Existing,Offline,1794.66,2000.0,111.44,-53.06
+2024-03-20,March,Q1,2024,East,Washington DC,Emily Watson,Office Supplies,High-Capacity Toner Cartridge,27,95.0,2565.0,1215.0,1350.0,52.63,Existing,Offline,2278.09,2565.0,112.59,43.57
+2024-03-20,March,Q1,2024,East,Philadelphia,Emily Watson,Electronics,Wireless ANC Headphones,10,250.0,2500.0,1400.0,1100.0,44.0,Existing,Offline,3079.08,2500.0,81.19,-41.33
+2024-03-21,March,Q1,2024,West,Los Angeles,Chloe Bennett,Office Supplies,High-Capacity Toner Cartridge,25,95.0,2375.0,1125.0,1250.0,52.63,Existing,Offline,2627.3,2375.0,90.4,32.93
+2024-03-23,March,Q1,2024,North,Chicago,David Miller,Accessories,USB-C Dual-Display Dock,11,185.0,2035.0,1045.0,990.0,48.65,New,Online,2278.63,2035.0,89.31,13.02
+2024-03-24,March,Q1,2024,East,Philadelphia,Emily Watson,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Offline,1341.54,1150.0,85.72,-59.82
+2024-03-25,March,Q1,2024,West,Los Angeles,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,9,165.0,1485.0,855.0,630.0,42.42,New,Online,1520.34,1485.0,97.68,-16.88
+2024-03-25,March,Q1,2024,West,San Francisco,Chloe Bennett,Accessories,USB-C Dual-Display Dock,8,185.0,1480.0,760.0,720.0,48.65,Existing,Online,1305.4,1480.0,113.38,-17.8
+2024-03-26,March,Q1,2024,East,Charlotte,James Wilson,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Offline,1159.87,1360.0,117.25,-52.48
+2024-03-31,March,Q1,2024,South,Miami,Carlos Santana,Accessories,Mechanical Ergonomic Keyboard,17,135.0,2295.0,1105.0,1190.0,51.85,Existing,Offline,2302.63,2295.0,99.67,27.47
+2024-03-31,March,Q1,2024,West,Seattle,Chloe Bennett,Electronics,"4K IPS Monitor 27""",9,450.0,4050.0,2610.0,1440.0,35.56,Existing,Online,4096.07,4050.0,98.88,-4.95
+2024-04-02,April,Q2,2024,South,Atlanta,Carlos Santana,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,Existing,Offline,2791.29,2660.0,95.3,-7.05
+2024-04-03,April,Q2,2024,South,Dallas,Carlos Santana,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,New,Online,8262.72,8750.0,105.9,105.36
+2024-04-03,April,Q2,2024,South,Dallas,Carlos Santana,Office Supplies,High-Capacity Toner Cartridge,15,95.0,1425.0,675.0,750.0,52.63,New,Online,1396.15,1425.0,102.07,-20.24
+2024-04-03,April,Q2,2024,South,Miami,Marcus Vance,Electronics,UltraBook Pro 15,6,1250.0,7500.0,5100.0,2400.0,32.0,New,Online,8068.73,7500.0,92.95,76.02
+2024-04-04,April,Q2,2024,South,Atlanta,Carlos Santana,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,Existing,Online,785.18,680.0,86.6,-61.94
+2024-04-05,April,Q2,2024,East,Philadelphia,James Wilson,Accessories,Precision Wireless Mouse,12,75.0,900.0,420.0,480.0,53.33,New,Online,935.37,900.0,96.22,-50.01
+2024-04-05,April,Q2,2024,East,Charlotte,James Wilson,Accessories,Precision Wireless Mouse,5,75.0,375.0,175.0,200.0,53.33,Existing,Offline,409.85,375.0,91.5,-79.17
+2024-04-06,April,Q2,2024,West,San Francisco,Alex Rivera,Electronics,"4K IPS Monitor 27""",2,450.0,900.0,580.0,320.0,35.56,New,Offline,845.02,900.0,106.51,-78.88
+2024-04-06,April,Q2,2024,South,Dallas,Carlos Santana,Accessories,Mechanical Ergonomic Keyboard,13,135.0,1755.0,845.0,910.0,51.85,Existing,Online,2002.97,1755.0,87.62,-2.53
+2024-04-07,April,Q2,2024,South,Dallas,Marcus Vance,Furniture,Electric Standing Desk,6,680.0,4080.0,2460.0,1620.0,39.71,New,Offline,3875.47,4080.0,105.28,42.56
+2024-04-07,April,Q2,2024,East,Washington DC,James Wilson,Accessories,Mechanical Ergonomic Keyboard,12,135.0,1620.0,780.0,840.0,51.85,Existing,Online,1975.09,1620.0,82.02,-10.02
+2024-04-09,April,Q2,2024,East,Washington DC,James Wilson,Electronics,UltraBook Pro 15,8,1250.0,10000.0,6800.0,3200.0,32.0,Existing,Offline,10014.14,10000.0,99.86,134.7
+2024-04-10,April,Q2,2024,North,Chicago,David Miller,Electronics,"4K IPS Monitor 27""",5,450.0,2250.0,1450.0,800.0,35.56,New,Online,2038.66,2250.0,110.37,-47.19
+2024-04-12,April,Q2,2024,North,Boston,Sarah Jenkins,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,Existing,Offline,3249.23,3400.0,104.64,18.8
+2024-04-14,April,Q2,2024,East,Charlotte,Emily Watson,Accessories,USB-C Dual-Display Dock,4,185.0,740.0,380.0,360.0,48.65,New,Online,738.69,740.0,100.18,-58.9
+2024-04-15,April,Q2,2024,North,Chicago,Sarah Jenkins,Electronics,Wireless ANC Headphones,11,250.0,2750.0,1540.0,1210.0,44.0,Existing,Online,3251.65,2750.0,84.57,-35.46
+2024-04-15,April,Q2,2024,North,New York,David Miller,Office Supplies,Heavy-Duty Paper Shredder,4,165.0,660.0,380.0,280.0,42.42,Existing,Offline,789.02,660.0,83.65,-63.06
+2024-04-16,April,Q2,2024,South,Miami,Carlos Santana,Accessories,Mechanical Ergonomic Keyboard,6,135.0,810.0,390.0,420.0,51.85,Existing,Online,837.29,810.0,96.74,-55.01
+2024-04-17,April,Q2,2024,North,Chicago,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,4,340.0,1360.0,860.0,500.0,36.76,Existing,Offline,1644.58,1360.0,82.7,-23.88
+2024-04-19,April,Q2,2024,South,Dallas,Carlos Santana,Accessories,USB-C Dual-Display Dock,9,185.0,1665.0,855.0,810.0,48.65,Existing,Online,1837.65,1665.0,90.6,-7.53
+2024-04-19,April,Q2,2024,South,Dallas,Marcus Vance,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,Existing,Offline,3198.79,3450.0,107.85,20.55
+2024-04-21,April,Q2,2024,South,Miami,Marcus Vance,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,Existing,Online,1555.05,1360.0,87.46,-52.48
+2024-04-23,April,Q2,2024,East,Philadelphia,James Wilson,Electronics,"4K IPS Monitor 27""",2,450.0,900.0,580.0,320.0,35.56,New,Offline,989.21,900.0,90.98,-78.88
+2024-04-23,April,Q2,2024,North,Boston,Sarah Jenkins,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,New,Online,3348.08,3750.0,112.0,-11.99
+2024-04-23,April,Q2,2024,East,Charlotte,James Wilson,Office Supplies,Heavy-Duty Paper Shredder,13,165.0,2145.0,1235.0,910.0,42.42,New,Online,2667.9,2145.0,80.4,20.06
+2024-04-24,April,Q2,2024,North,Boston,Sarah Jenkins,Accessories,USB-C Dual-Display Dock,7,185.0,1295.0,665.0,630.0,48.65,New,Offline,1329.62,1295.0,97.4,-28.08
+2024-04-28,April,Q2,2024,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,26,95.0,2470.0,1170.0,1300.0,52.63,New,Offline,2482.38,2470.0,99.5,38.25
+2024-04-29,April,Q2,2024,South,Dallas,Marcus Vance,Office Supplies,Heavy-Duty Paper Shredder,9,165.0,1485.0,855.0,630.0,42.42,Existing,Online,1490.17,1485.0,99.65,-16.88
+2024-04-30,April,Q2,2024,West,San Francisco,Alex Rivera,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,Existing,Offline,1703.85,1700.0,99.77,-4.85
+2024-05-01,May,Q2,2024,North,Boston,Sarah Jenkins,Accessories,Precision Wireless Mouse,23,75.0,1725.0,805.0,920.0,53.33,New,Offline,1713.06,1725.0,100.7,-4.19
+2024-05-03,May,Q2,2024,West,Seattle,Alex Rivera,Electronics,UltraBook Pro 15,4,1250.0,5000.0,3400.0,1600.0,32.0,Existing,Online,4973.2,5000.0,100.54,17.35
+2024-05-04,May,Q2,2024,North,Boston,Sarah Jenkins,Accessories,Precision Wireless Mouse,10,75.0,750.0,350.0,400.0,53.33,New,Online,759.9,750.0,98.7,-58.34
+2024-05-07,May,Q2,2024,East,Charlotte,James Wilson,Accessories,Mechanical Ergonomic Keyboard,17,135.0,2295.0,1105.0,1190.0,51.85,New,Offline,2459.7,2295.0,93.3,27.47
+2024-05-09,May,Q2,2024,East,Philadelphia,Emily Watson,Office Supplies,Heavy-Duty Paper Shredder,7,165.0,1155.0,665.0,490.0,42.42,Existing,Online,1382.98,1155.0,83.52,-35.35
+2024-05-11,May,Q2,2024,North,Chicago,David Miller,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,Existing,Online,3635.09,3450.0,94.91,20.55
+2024-05-13,May,Q2,2024,East,Philadelphia,James Wilson,Office Supplies,Heavy-Duty Paper Shredder,14,165.0,2310.0,1330.0,980.0,42.42,Existing,Online,2033.03,2310.0,113.62,29.3
+2024-05-15,May,Q2,2024,West,San Francisco,Alex Rivera,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,Existing,Online,994.85,1020.0,102.53,-42.91
+2024-05-16,May,Q2,2024,South,Dallas,Carlos Santana,Accessories,Precision Wireless Mouse,22,75.0,1650.0,770.0,880.0,53.33,Existing,Offline,2019.94,1650.0,81.69,-8.36
+2024-05-17,May,Q2,2024,West,San Francisco,Chloe Bennett,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,Existing,Offline,3162.35,2660.0,84.11,-7.05
+2024-05-20,May,Q2,2024,North,Chicago,David Miller,Accessories,Precision Wireless Mouse,31,75.0,2325.0,1085.0,1240.0,53.33,New,Offline,2393.45,2325.0,97.14,29.13
+2024-05-21,May,Q2,2024,South,Dallas,Carlos Santana,Office Supplies,High-Capacity Toner Cartridge,24,95.0,2280.0,1080.0,1200.0,52.63,New,Offline,2277.83,2280.0,100.1,27.62
+2024-05-24,May,Q2,2024,North,New York,Sarah Jenkins,Accessories,USB-C Dual-Display Dock,15,185.0,2775.0,1425.0,1350.0,48.65,Existing,Offline,2696.96,2775.0,102.89,54.12
+2024-05-25,May,Q2,2024,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,30,95.0,2850.0,1350.0,1500.0,52.63,New,Offline,2965.33,2850.0,96.11,59.52
+2024-05-26,May,Q2,2024,East,Charlotte,Emily Watson,Electronics,"4K IPS Monitor 27""",9,450.0,4050.0,2610.0,1440.0,35.56,New,Offline,3950.23,4050.0,102.53,-4.95
+2024-05-29,May,Q2,2024,West,Seattle,Alex Rivera,Furniture,Executive Ergonomic Chair,9,380.0,3420.0,1980.0,1440.0,42.11,New,Online,3227.14,3420.0,105.98,19.5
+2024-06-02,June,Q2,2024,South,Atlanta,Carlos Santana,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,New,Offline,2601.41,2660.0,102.25,-7.05
+2024-06-05,June,Q2,2024,South,Miami,Marcus Vance,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,2605.74,2720.0,104.38,-4.96
+2024-06-07,June,Q2,2024,West,Los Angeles,Chloe Bennett,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,Existing,Online,3264.76,3400.0,104.14,18.8
+2024-06-09,June,Q2,2024,West,Seattle,Alex Rivera,Electronics,"4K IPS Monitor 27""",9,450.0,4050.0,2610.0,1440.0,35.56,New,Online,3893.11,4050.0,104.03,-4.95
+2024-06-12,June,Q2,2024,West,Seattle,Chloe Bennett,Electronics,Wireless ANC Headphones,9,250.0,2250.0,1260.0,990.0,44.0,Existing,Online,1995.97,2250.0,112.73,-47.19
+2024-06-12,June,Q2,2024,East,Charlotte,James Wilson,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Offline,1595.25,1520.0,95.28,-46.89
+2024-06-14,June,Q2,2024,South,Miami,Marcus Vance,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,Existing,Offline,728.84,680.0,93.3,-76.24
+2024-06-17,June,Q2,2024,South,Dallas,Marcus Vance,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,Existing,Online,3808.88,3450.0,90.58,20.55
+2024-06-19,June,Q2,2024,East,Philadelphia,Emily Watson,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,New,Online,1044.46,1150.0,110.1,-59.82
+2024-06-21,June,Q2,2024,East,Philadelphia,Emily Watson,Accessories,Precision Wireless Mouse,22,75.0,1650.0,770.0,880.0,53.33,Existing,Offline,1760.31,1650.0,93.73,-8.36
+2024-06-22,June,Q2,2024,West,San Francisco,Alex Rivera,Furniture,Electric Standing Desk,3,680.0,2040.0,1230.0,810.0,39.71,New,Online,1870.44,2040.0,109.07,-28.72
+2024-06-23,June,Q2,2024,North,New York,David Miller,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,Existing,Offline,5630.14,4600.0,81.7,60.73
+2024-06-23,June,Q2,2024,South,Dallas,Marcus Vance,Accessories,USB-C Dual-Display Dock,8,185.0,1480.0,760.0,720.0,48.65,Existing,Online,1357.29,1480.0,109.04,-17.8
+2024-06-26,June,Q2,2024,West,Los Angeles,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,8,165.0,1320.0,760.0,560.0,42.42,Existing,Offline,1481.43,1320.0,89.1,-26.12
+2024-06-28,June,Q2,2024,West,San Francisco,Alex Rivera,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,New,Offline,3668.68,3060.0,83.41,71.28
+2024-06-28,June,Q2,2024,West,Seattle,Chloe Bennett,Electronics,"4K IPS Monitor 27""",8,450.0,3600.0,2320.0,1280.0,35.56,Existing,Online,3262.48,3600.0,110.35,-15.51
+2024-06-28,June,Q2,2024,West,Los Angeles,Chloe Bennett,Electronics,UltraBook Pro 15,6,1250.0,7500.0,5100.0,2400.0,32.0,Existing,Offline,8732.41,7500.0,85.89,76.02
+2024-06-28,June,Q2,2024,West,Los Angeles,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,4,165.0,660.0,380.0,280.0,42.42,Existing,Online,591.89,660.0,111.51,-63.06
+2024-06-30,June,Q2,2024,West,Seattle,Chloe Bennett,Accessories,Mechanical Ergonomic Keyboard,22,135.0,2970.0,1430.0,1540.0,51.85,Existing,Offline,2908.47,2970.0,102.12,64.96
+2024-07-04,July,Q3,2024,North,Boston,David Miller,Accessories,Mechanical Ergonomic Keyboard,21,135.0,2835.0,1365.0,1470.0,51.85,New,Offline,2694.03,2835.0,105.23,57.46
+2024-07-06,July,Q3,2024,East,Washington DC,Emily Watson,Electronics,"4K IPS Monitor 27""",9,450.0,4050.0,2610.0,1440.0,35.56,Existing,Offline,3601.11,4050.0,112.47,-4.95
+2024-07-06,July,Q3,2024,East,Charlotte,Emily Watson,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,New,Offline,2708.38,2660.0,98.21,-7.05
+2024-07-09,July,Q3,2024,West,San Francisco,Chloe Bennett,Furniture,Executive Ergonomic Chair,3,380.0,1140.0,660.0,480.0,42.11,New,Online,1293.52,1140.0,88.13,-60.17
+2024-07-09,July,Q3,2024,North,Boston,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,11,135.0,1485.0,715.0,770.0,51.85,Existing,Offline,1600.64,1485.0,92.78,-17.52
+2024-07-09,July,Q3,2024,West,Los Angeles,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,4,165.0,660.0,380.0,280.0,42.42,New,Online,678.82,660.0,97.23,-63.06
+2024-07-09,July,Q3,2024,West,Los Angeles,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,5,165.0,825.0,475.0,350.0,42.42,Existing,Online,805.06,825.0,102.48,-53.82
+2024-07-10,July,Q3,2024,East,Washington DC,James Wilson,Electronics,Wireless ANC Headphones,4,250.0,1000.0,560.0,440.0,44.0,Existing,Offline,1108.91,1000.0,90.18,-76.53
+2024-07-11,July,Q3,2024,West,Los Angeles,Chloe Bennett,Electronics,Wireless ANC Headphones,18,250.0,4500.0,2520.0,1980.0,44.0,New,Online,4907.99,4500.0,91.69,5.61
+2024-07-12,July,Q3,2024,West,Los Angeles,Chloe Bennett,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,New,Offline,1710.01,1700.0,99.41,-4.85
+2024-07-14,July,Q3,2024,East,Philadelphia,James Wilson,Electronics,UltraBook Pro 15,2,1250.0,2500.0,1700.0,800.0,32.0,Existing,Online,2783.46,2500.0,89.82,-41.33
+2024-07-15,July,Q3,2024,North,New York,David Miller,Accessories,Mechanical Ergonomic Keyboard,19,135.0,2565.0,1235.0,1330.0,51.85,Existing,Offline,2442.84,2565.0,105.0,42.46
+2024-07-15,July,Q3,2024,West,Los Angeles,Chloe Bennett,Accessories,Mechanical Ergonomic Keyboard,9,135.0,1215.0,585.0,630.0,51.85,Existing,Online,1299.05,1215.0,93.53,-32.52
+2024-07-16,July,Q3,2024,East,Philadelphia,Emily Watson,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Online,2063.09,1900.0,92.09,-33.61
+2024-07-16,July,Q3,2024,South,Miami,Marcus Vance,Office Supplies,Heavy-Duty Paper Shredder,14,165.0,2310.0,1330.0,980.0,42.42,Existing,Offline,2671.55,2310.0,86.47,29.3
+2024-07-17,July,Q3,2024,East,Charlotte,James Wilson,Office Supplies,High-Capacity Toner Cartridge,29,95.0,2755.0,1305.0,1450.0,52.63,New,Online,2923.01,2755.0,94.25,54.2
+2024-07-17,July,Q3,2024,East,Washington DC,Emily Watson,Accessories,Mechanical Ergonomic Keyboard,6,135.0,810.0,390.0,420.0,51.85,New,Online,854.99,810.0,94.74,-55.01
+2024-07-19,July,Q3,2024,South,Atlanta,Marcus Vance,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,New,Online,806.36,680.0,84.33,-61.94
+2024-07-21,July,Q3,2024,West,San Francisco,Alex Rivera,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,New,Offline,1054.78,1150.0,109.03,-59.82
+2024-07-21,July,Q3,2024,West,Seattle,Alex Rivera,Accessories,USB-C Dual-Display Dock,11,185.0,2035.0,1045.0,990.0,48.65,Existing,Online,2541.44,2035.0,80.07,13.02
+2024-07-21,July,Q3,2024,West,Seattle,Chloe Bennett,Electronics,Wireless ANC Headphones,10,250.0,2500.0,1400.0,1100.0,44.0,New,Offline,3025.12,2500.0,82.64,-41.33
+2024-07-23,July,Q3,2024,West,Seattle,Chloe Bennett,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,New,Online,1864.48,1900.0,101.91,-33.61
+2024-07-24,July,Q3,2024,West,Seattle,Alex Rivera,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,New,Offline,2490.44,2380.0,95.57,33.21
+2024-07-24,July,Q3,2024,North,New York,Sarah Jenkins,Office Supplies,High-Capacity Toner Cartridge,6,95.0,570.0,270.0,300.0,52.63,Existing,Offline,546.97,570.0,104.21,-68.1
+2024-07-31,July,Q3,2024,West,Seattle,Chloe Bennett,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,New,Offline,660.75,680.0,102.91,-76.24
+2024-08-04,August,Q3,2024,South,Miami,Carlos Santana,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Offline,2138.2,2380.0,111.31,33.21
+2024-08-06,August,Q3,2024,East,Washington DC,James Wilson,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,Existing,Offline,1414.32,1360.0,96.16,-52.48
+2024-08-11,August,Q3,2024,North,New York,David Miller,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,New,Online,1032.54,1150.0,111.38,-59.82
+2024-08-11,August,Q3,2024,South,Miami,Marcus Vance,Office Supplies,Heavy-Duty Paper Shredder,10,165.0,1650.0,950.0,700.0,42.42,Existing,Online,2007.88,1650.0,82.18,-7.65
+2024-08-13,August,Q3,2024,South,Dallas,Carlos Santana,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Online,1109.65,1150.0,103.64,-59.82
+2024-08-13,August,Q3,2024,East,Philadelphia,James Wilson,Furniture,Executive Ergonomic Chair,10,380.0,3800.0,2200.0,1600.0,42.11,New,Offline,4089.79,3800.0,92.91,32.78
+2024-08-16,August,Q3,2024,South,Dallas,Carlos Santana,Accessories,Precision Wireless Mouse,27,75.0,2025.0,945.0,1080.0,53.33,New,Online,1722.71,2025.0,117.55,12.47
+2024-08-16,August,Q3,2024,North,New York,David Miller,Office Supplies,High-Capacity Toner Cartridge,26,95.0,2470.0,1170.0,1300.0,52.63,Existing,Offline,2474.23,2470.0,99.83,38.25
+2024-08-16,August,Q3,2024,East,Philadelphia,James Wilson,Office Supplies,Heavy-Duty Paper Shredder,11,165.0,1815.0,1045.0,770.0,42.42,New,Online,1550.44,1815.0,117.06,1.59
+2024-08-17,August,Q3,2024,West,San Francisco,Chloe Bennett,Accessories,Precision Wireless Mouse,26,75.0,1950.0,910.0,1040.0,53.33,New,Online,1982.42,1950.0,98.36,8.3
+2024-08-17,August,Q3,2024,North,Chicago,David Miller,Electronics,"4K IPS Monitor 27""",6,450.0,2700.0,1740.0,960.0,35.56,Existing,Offline,3207.77,2700.0,84.17,-36.63
+2024-08-18,August,Q3,2024,East,Charlotte,Emily Watson,Office Supplies,High-Capacity Toner Cartridge,6,95.0,570.0,270.0,300.0,52.63,Existing,Offline,611.56,570.0,93.2,-68.1
+2024-08-18,August,Q3,2024,North,Chicago,Sarah Jenkins,Accessories,USB-C Dual-Display Dock,10,185.0,1850.0,950.0,900.0,48.65,Existing,Online,2096.3,1850.0,88.25,2.75
+2024-08-18,August,Q3,2024,North,Chicago,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,8,135.0,1080.0,520.0,560.0,51.85,Existing,Offline,1137.83,1080.0,94.92,-40.02
+2024-08-19,August,Q3,2024,West,San Francisco,Alex Rivera,Accessories,Precision Wireless Mouse,15,75.0,1125.0,525.0,600.0,53.33,Existing,Offline,1146.29,1125.0,98.14,-37.52
+2024-08-19,August,Q3,2024,West,Seattle,Chloe Bennett,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,Existing,Online,3734.6,3400.0,91.04,18.8
+2024-08-21,August,Q3,2024,South,Dallas,Carlos Santana,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,Existing,Offline,3055.72,3450.0,112.9,20.55
+2024-08-21,August,Q3,2024,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,25,95.0,2375.0,1125.0,1250.0,52.63,Existing,Online,2388.78,2375.0,99.42,32.93
+2024-08-23,August,Q3,2024,West,Los Angeles,Alex Rivera,Electronics,"4K IPS Monitor 27""",5,450.0,2250.0,1450.0,800.0,35.56,Existing,Offline,2633.27,2250.0,85.45,-47.19
+2024-08-23,August,Q3,2024,South,Dallas,Carlos Santana,Electronics,Wireless ANC Headphones,11,250.0,2750.0,1540.0,1210.0,44.0,New,Offline,3179.54,2750.0,86.49,-35.46
+2024-08-23,August,Q3,2024,West,Seattle,Alex Rivera,Office Supplies,High-Capacity Toner Cartridge,26,95.0,2470.0,1170.0,1300.0,52.63,Existing,Online,2258.81,2470.0,109.35,38.25
+2024-08-24,August,Q3,2024,West,Seattle,Chloe Bennett,Office Supplies,High-Capacity Toner Cartridge,6,95.0,570.0,270.0,300.0,52.63,New,Online,493.49,570.0,115.5,-68.1
+2024-08-29,August,Q3,2024,North,New York,David Miller,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Offline,1690.55,1520.0,89.91,-46.89
+2024-08-30,August,Q3,2024,East,Philadelphia,Emily Watson,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,New,Offline,2216.8,2040.0,92.02,14.18
+2024-08-31,August,Q3,2024,East,Philadelphia,Emily Watson,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,New,Offline,608.91,680.0,111.67,-76.24
+2024-09-01,September,Q3,2024,South,Miami,Marcus Vance,Office Supplies,High-Capacity Toner Cartridge,10,95.0,950.0,450.0,500.0,52.63,New,Offline,1058.08,950.0,89.79,-46.83
+2024-09-03,September,Q3,2024,West,Los Angeles,Chloe Bennett,Office Supplies,Laser Multifunction Printer,4,340.0,1360.0,860.0,500.0,36.76,Existing,Offline,1198.66,1360.0,113.46,-23.88
+2024-09-03,September,Q3,2024,West,Los Angeles,Alex Rivera,Furniture,Executive Ergonomic Chair,9,380.0,3420.0,1980.0,1440.0,42.11,Existing,Offline,3819.24,3420.0,89.55,19.5
+2024-09-04,September,Q3,2024,West,Seattle,Alex Rivera,Accessories,Precision Wireless Mouse,20,75.0,1500.0,700.0,800.0,53.33,Existing,Online,1750.76,1500.0,85.68,-16.69
+2024-09-05,September,Q3,2024,North,New York,David Miller,Accessories,Precision Wireless Mouse,24,75.0,1800.0,840.0,960.0,53.33,New,Offline,1709.08,1800.0,105.32,-0.03
+2024-09-06,September,Q3,2024,West,Los Angeles,Chloe Bennett,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Online,1201.77,1150.0,95.69,-59.82
+2024-09-08,September,Q3,2024,West,Los Angeles,Chloe Bennett,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,2845.77,2720.0,95.58,-4.96
+2024-09-10,September,Q3,2024,South,Atlanta,Marcus Vance,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,3359.4,2720.0,80.97,-4.96
+2024-09-10,September,Q3,2024,South,Atlanta,Marcus Vance,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Online,1868.24,1520.0,81.36,-46.89
+2024-09-11,September,Q3,2024,West,Seattle,Chloe Bennett,Electronics,Wireless ANC Headphones,20,250.0,5000.0,2800.0,2200.0,44.0,Existing,Offline,4273.29,5000.0,117.01,17.35
+2024-09-12,September,Q3,2024,East,Philadelphia,Emily Watson,Electronics,"4K IPS Monitor 27""",3,450.0,1350.0,870.0,480.0,35.56,Existing,Offline,1478.97,1350.0,91.28,-68.32
+2024-09-17,September,Q3,2024,North,Boston,Sarah Jenkins,Accessories,USB-C Dual-Display Dock,5,185.0,925.0,475.0,450.0,48.65,New,Online,809.84,925.0,114.22,-48.63
+2024-09-17,September,Q3,2024,West,Los Angeles,Alex Rivera,Office Supplies,High-Capacity Toner Cartridge,28,95.0,2660.0,1260.0,1400.0,52.63,New,Online,2857.21,2660.0,93.1,48.89
+2024-09-19,September,Q3,2024,North,Boston,Sarah Jenkins,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,Existing,Online,8019.68,8750.0,109.11,105.36
+2024-09-20,September,Q3,2024,East,Philadelphia,James Wilson,Electronics,"4K IPS Monitor 27""",7,450.0,3150.0,2030.0,1120.0,35.56,Existing,Offline,2928.19,3150.0,107.57,-26.07
+2024-09-22,September,Q3,2024,West,Seattle,Chloe Bennett,Accessories,Precision Wireless Mouse,6,75.0,450.0,210.0,240.0,53.33,Existing,Offline,529.38,450.0,85.01,-75.01
+2024-09-22,September,Q3,2024,South,Miami,Carlos Santana,Furniture,Executive Ergonomic Chair,6,380.0,2280.0,1320.0,960.0,42.11,Existing,Offline,2271.72,2280.0,100.36,-20.33
+2024-09-23,September,Q3,2024,South,Dallas,Marcus Vance,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,New,Online,3199.98,3750.0,117.19,-11.99
+2024-09-24,September,Q3,2024,South,Miami,Carlos Santana,Electronics,UltraBook Pro 15,2,1250.0,2500.0,1700.0,800.0,32.0,Existing,Online,2911.43,2500.0,85.87,-41.33
+2024-09-26,September,Q3,2024,South,Miami,Marcus Vance,Accessories,Mechanical Ergonomic Keyboard,13,135.0,1755.0,845.0,910.0,51.85,Existing,Online,1631.39,1755.0,107.58,-2.53
+2024-09-27,September,Q3,2024,East,Washington DC,James Wilson,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,New,Online,8706.33,8750.0,100.5,105.36
+2024-09-27,September,Q3,2024,West,Seattle,Alex Rivera,Electronics,"4K IPS Monitor 27""",12,450.0,5400.0,3480.0,1920.0,35.56,Existing,Online,4597.66,5400.0,117.45,26.74
+2024-09-29,September,Q3,2024,North,New York,David Miller,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,New,Offline,2696.71,2300.0,85.29,-19.63
+2024-09-29,September,Q3,2024,South,Atlanta,Marcus Vance,Electronics,Wireless ANC Headphones,12,250.0,3000.0,1680.0,1320.0,44.0,Existing,Offline,3655.43,3000.0,82.07,-29.59
+2024-10-02,October,Q4,2024,North,New York,Sarah Jenkins,Electronics,"4K IPS Monitor 27""",12,450.0,5400.0,3480.0,1920.0,35.56,New,Online,6686.72,5400.0,80.76,26.74
+2024-10-04,October,Q4,2024,East,Philadelphia,Emily Watson,Accessories,USB-C Dual-Display Dock,10,185.0,1850.0,950.0,900.0,48.65,New,Offline,1965.47,1850.0,94.13,2.75
+2024-10-04,October,Q4,2024,North,New York,David Miller,Office Supplies,Heavy-Duty Paper Shredder,12,165.0,1980.0,1140.0,840.0,42.42,Existing,Online,2356.54,1980.0,84.02,10.83
+2024-10-06,October,Q4,2024,West,Seattle,Chloe Bennett,Furniture,Executive Ergonomic Chair,9,380.0,3420.0,1980.0,1440.0,42.11,Existing,Online,4168.12,3420.0,82.05,19.5
+2024-10-07,October,Q4,2024,East,Philadelphia,James Wilson,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Offline,2299.51,2380.0,103.5,33.21
+2024-10-08,October,Q4,2024,East,Philadelphia,James Wilson,Electronics,Wireless ANC Headphones,6,250.0,1500.0,840.0,660.0,44.0,Existing,Online,1419.58,1500.0,105.67,-64.8
+2024-10-08,October,Q4,2024,West,San Francisco,Chloe Bennett,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,Existing,Online,1802.5,1700.0,94.31,-4.85
+2024-10-09,October,Q4,2024,West,Seattle,Chloe Bennett,Electronics,"4K IPS Monitor 27""",7,450.0,3150.0,2030.0,1120.0,35.56,New,Online,3465.04,3150.0,90.91,-26.07
+2024-10-10,October,Q4,2024,West,Los Angeles,Alex Rivera,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,New,Online,2607.63,2720.0,104.31,-4.96
+2024-10-10,October,Q4,2024,East,Charlotte,James Wilson,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Online,1326.52,1520.0,114.59,-46.89
+2024-10-10,October,Q4,2024,South,Atlanta,Carlos Santana,Electronics,Wireless ANC Headphones,6,250.0,1500.0,840.0,660.0,44.0,Existing,Online,1283.92,1500.0,116.83,-64.8
+2024-10-10,October,Q4,2024,East,Philadelphia,James Wilson,Office Supplies,High-Capacity Toner Cartridge,19,95.0,1805.0,855.0,950.0,52.63,Existing,Offline,1885.84,1805.0,95.71,1.03
+2024-10-11,October,Q4,2024,North,Chicago,Sarah Jenkins,Office Supplies,Heavy-Duty Paper Shredder,6,165.0,990.0,570.0,420.0,42.42,Existing,Online,970.89,990.0,101.97,-44.59
+2024-10-14,October,Q4,2024,North,Chicago,David Miller,Accessories,USB-C Dual-Display Dock,10,185.0,1850.0,950.0,900.0,48.65,Existing,Online,2058.58,1850.0,89.87,2.75
+2024-10-16,October,Q4,2024,East,Charlotte,James Wilson,Electronics,Wireless ANC Headphones,17,250.0,4250.0,2380.0,1870.0,44.0,Existing,Online,4550.76,4250.0,93.39,-0.25
+2024-10-17,October,Q4,2024,East,Charlotte,Emily Watson,Accessories,USB-C Dual-Display Dock,18,185.0,3330.0,1710.0,1620.0,48.65,Existing,Offline,3845.82,3330.0,86.59,84.95
+2024-10-18,October,Q4,2024,East,Washington DC,James Wilson,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Offline,1618.54,1900.0,117.39,-33.61
+2024-10-18,October,Q4,2024,North,Boston,David Miller,Furniture,Executive Ergonomic Chair,10,380.0,3800.0,2200.0,1600.0,42.11,Existing,Online,3825.46,3800.0,99.33,32.78
+2024-10-21,October,Q4,2024,North,Chicago,Sarah Jenkins,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Online,3117.13,2720.0,87.26,-4.96
+2024-10-21,October,Q4,2024,North,Chicago,David Miller,Accessories,Mechanical Ergonomic Keyboard,12,135.0,1620.0,780.0,840.0,51.85,Existing,Online,1913.51,1620.0,84.66,-10.02
+2024-10-21,October,Q4,2024,South,Miami,Marcus Vance,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,Existing,Offline,908.01,1020.0,112.33,-42.91
+2024-10-22,October,Q4,2024,North,Chicago,David Miller,Office Supplies,Heavy-Duty Paper Shredder,7,165.0,1155.0,665.0,490.0,42.42,Existing,Offline,1264.05,1155.0,91.37,-35.35
+2024-10-23,October,Q4,2024,North,New York,David Miller,Accessories,USB-C Dual-Display Dock,6,185.0,1110.0,570.0,540.0,48.65,Existing,Online,1145.23,1110.0,96.92,-38.35
+2024-10-23,October,Q4,2024,North,New York,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,Existing,Offline,1866.73,2040.0,109.28,14.18
+2024-10-24,October,Q4,2024,East,Charlotte,James Wilson,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,New,Offline,885.72,1020.0,115.16,-42.91
+2024-10-25,October,Q4,2024,East,Charlotte,Emily Watson,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,Existing,Offline,4301.27,3750.0,87.18,-11.99
+2024-10-25,October,Q4,2024,East,Charlotte,James Wilson,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,3125.71,2720.0,87.02,-4.96
+2024-10-29,October,Q4,2024,South,Miami,Marcus Vance,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,New,Offline,5270.67,4600.0,87.28,60.73
+2024-10-31,October,Q4,2024,East,Charlotte,Emily Watson,Accessories,Precision Wireless Mouse,27,75.0,2025.0,945.0,1080.0,53.33,Existing,Online,2175.24,2025.0,93.09,12.47
+2024-11-02,November,Q4,2024,South,Dallas,Marcus Vance,Accessories,Mechanical Ergonomic Keyboard,25,135.0,3375.0,1625.0,1750.0,51.85,New,Online,2880.19,3375.0,117.18,87.45
+2024-11-03,November,Q4,2024,South,Miami,Marcus Vance,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,New,Online,2082.77,2300.0,110.43,-19.63
+2024-11-08,November,Q4,2024,South,Dallas,Carlos Santana,Accessories,USB-C Dual-Display Dock,7,185.0,1295.0,665.0,630.0,48.65,Existing,Offline,1221.7,1295.0,106.0,-28.08
+2024-11-08,November,Q4,2024,East,Washington DC,James Wilson,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,New,Offline,5156.04,4600.0,89.22,60.73
+2024-11-08,November,Q4,2024,South,Dallas,Marcus Vance,Accessories,Precision Wireless Mouse,8,75.0,600.0,280.0,320.0,53.33,New,Online,541.85,600.0,110.73,-66.68
+2024-11-10,November,Q4,2024,South,Atlanta,Marcus Vance,Accessories,USB-C Dual-Display Dock,5,185.0,925.0,475.0,450.0,48.65,New,Online,811.86,925.0,113.94,-48.63
+2024-11-11,November,Q4,2024,West,San Francisco,Alex Rivera,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,Existing,Online,3032.94,3060.0,100.89,71.28
+2024-11-13,November,Q4,2024,South,Atlanta,Marcus Vance,Electronics,UltraBook Pro 15,1,1250.0,1250.0,850.0,400.0,32.0,New,Online,1487.37,1250.0,84.04,-70.66
+2024-11-17,November,Q4,2024,North,New York,David Miller,Office Supplies,Heavy-Duty Paper Shredder,11,165.0,1815.0,1045.0,770.0,42.42,New,Offline,1600.91,1815.0,113.37,1.59
+2024-11-17,November,Q4,2024,West,San Francisco,Chloe Bennett,Accessories,Precision Wireless Mouse,11,75.0,825.0,385.0,440.0,53.33,Existing,Offline,1005.02,825.0,82.09,-54.18
+2024-11-19,November,Q4,2024,West,San Francisco,Alex Rivera,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,Existing,Offline,2544.57,2300.0,90.39,-19.63
+2024-11-20,November,Q4,2024,North,Chicago,David Miller,Accessories,Mechanical Ergonomic Keyboard,20,135.0,2700.0,1300.0,1400.0,51.85,New,Offline,3137.68,2700.0,86.05,49.96
+2024-11-21,November,Q4,2024,West,Seattle,Chloe Bennett,Accessories,USB-C Dual-Display Dock,12,185.0,2220.0,1140.0,1080.0,48.65,Existing,Online,2390.37,2220.0,92.87,23.3
+2024-11-22,November,Q4,2024,West,Seattle,Alex Rivera,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,New,Offline,2574.17,2720.0,105.67,-4.96
+2024-11-22,November,Q4,2024,East,Washington DC,Emily Watson,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,New,Offline,1100.54,1150.0,104.49,-59.82
+2024-11-23,November,Q4,2024,North,New York,Sarah Jenkins,Furniture,Executive Ergonomic Chair,8,380.0,3040.0,1760.0,1280.0,42.11,Existing,Offline,2662.1,3040.0,114.2,6.22
+2024-11-24,November,Q4,2024,North,New York,David Miller,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,New,Offline,3596.8,3060.0,85.08,71.28
+2024-11-25,November,Q4,2024,West,Seattle,Alex Rivera,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,2804.7,2720.0,96.98,-4.96
+2024-11-27,November,Q4,2024,South,Atlanta,Carlos Santana,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,Existing,Online,1669.15,1700.0,101.85,-4.85
+2024-11-27,November,Q4,2024,North,New York,Sarah Jenkins,Accessories,USB-C Dual-Display Dock,7,185.0,1295.0,665.0,630.0,48.65,Existing,Offline,1546.58,1295.0,83.73,-28.08
+2024-11-28,November,Q4,2024,East,Washington DC,James Wilson,Accessories,Precision Wireless Mouse,15,75.0,1125.0,525.0,600.0,53.33,Existing,Online,1052.52,1125.0,106.89,-37.52
+2024-12-04,December,Q4,2024,West,Los Angeles,Alex Rivera,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,Existing,Online,4347.99,3750.0,86.25,-11.99
+2024-12-05,December,Q4,2024,North,Boston,Sarah Jenkins,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Offline,2045.76,1900.0,92.88,-33.61
+2024-12-05,December,Q4,2024,North,New York,Sarah Jenkins,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,Existing,Online,4049.94,3750.0,92.59,-11.99
+2024-12-05,December,Q4,2024,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,8,95.0,760.0,360.0,400.0,52.63,Existing,Offline,823.41,760.0,92.3,-57.46
+2024-12-09,December,Q4,2024,West,Seattle,Alex Rivera,Furniture,Electric Standing Desk,6,680.0,4080.0,2460.0,1620.0,39.71,Existing,Offline,4277.71,4080.0,95.38,42.56
+2024-12-10,December,Q4,2024,West,Los Angeles,Chloe Bennett,Office Supplies,High-Capacity Toner Cartridge,5,95.0,475.0,225.0,250.0,52.63,Existing,Offline,589.93,475.0,80.52,-73.41
+2024-12-11,December,Q4,2024,West,Los Angeles,Chloe Bennett,Electronics,"4K IPS Monitor 27""",3,450.0,1350.0,870.0,480.0,35.56,New,Online,1318.61,1350.0,102.38,-68.32
+2024-12-13,December,Q4,2024,West,Los Angeles,Chloe Bennett,Accessories,USB-C Dual-Display Dock,3,185.0,555.0,285.0,270.0,48.65,Existing,Online,556.7,555.0,99.69,-69.18
+2024-12-15,December,Q4,2024,West,San Francisco,Alex Rivera,Electronics,Wireless ANC Headphones,7,250.0,1750.0,980.0,770.0,44.0,New,Offline,1558.3,1750.0,112.3,-58.93
+2024-12-16,December,Q4,2024,South,Atlanta,Carlos Santana,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,New,Online,3642.22,3060.0,84.01,71.28
+2024-12-17,December,Q4,2024,North,Boston,Sarah Jenkins,Electronics,UltraBook Pro 15,4,1250.0,5000.0,3400.0,1600.0,32.0,Existing,Offline,5298.14,5000.0,94.37,17.35
+2024-12-17,December,Q4,2024,South,Miami,Carlos Santana,Accessories,Mechanical Ergonomic Keyboard,15,135.0,2025.0,975.0,1050.0,51.85,Existing,Offline,2402.17,2025.0,84.3,12.47
+2024-12-18,December,Q4,2024,South,Dallas,Marcus Vance,Electronics,Wireless ANC Headphones,8,250.0,2000.0,1120.0,880.0,44.0,New,Offline,1855.46,2000.0,107.79,-53.06
+2024-12-19,December,Q4,2024,North,Chicago,Sarah Jenkins,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Online,3216.47,2720.0,84.56,-4.96
+2024-12-20,December,Q4,2024,North,New York,David Miller,Furniture,Executive Ergonomic Chair,3,380.0,1140.0,660.0,480.0,42.11,New,Offline,1404.42,1140.0,81.17,-60.17
+2024-12-21,December,Q4,2024,East,Philadelphia,James Wilson,Electronics,Wireless ANC Headphones,11,250.0,2750.0,1540.0,1210.0,44.0,Existing,Online,3327.39,2750.0,82.65,-35.46
+2024-12-22,December,Q4,2024,North,Chicago,Sarah Jenkins,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Offline,1881.48,1900.0,100.98,-33.61
+2024-12-25,December,Q4,2024,North,New York,Sarah Jenkins,Accessories,USB-C Dual-Display Dock,15,185.0,2775.0,1425.0,1350.0,48.65,New,Offline,3437.46,2775.0,80.73,54.12
+2024-12-27,December,Q4,2024,East,Washington DC,James Wilson,Accessories,USB-C Dual-Display Dock,3,185.0,555.0,285.0,270.0,48.65,Existing,Online,508.51,555.0,109.14,-69.18
+2024-12-27,December,Q4,2024,West,Seattle,Alex Rivera,Electronics,"4K IPS Monitor 27""",12,450.0,5400.0,3480.0,1920.0,35.56,Existing,Online,6320.37,5400.0,85.44,26.74
+2024-12-28,December,Q4,2024,North,Chicago,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,Existing,Online,663.15,680.0,102.54,-61.94
+2024-12-29,December,Q4,2024,East,Washington DC,James Wilson,Accessories,USB-C Dual-Display Dock,11,185.0,2035.0,1045.0,990.0,48.65,Existing,Online,1885.27,2035.0,107.94,13.02
+2024-12-29,December,Q4,2024,South,Miami,Carlos Santana,Accessories,Precision Wireless Mouse,34,75.0,2550.0,1190.0,1360.0,53.33,Existing,Online,2815.18,2550.0,90.58,41.63
+2025-01-01,January,Q1,2025,North,Boston,David Miller,Furniture,Executive Ergonomic Chair,8,380.0,3040.0,1760.0,1280.0,42.11,Existing,Offline,2976.6,3040.0,102.13,6.22
+2025-01-02,January,Q1,2025,East,Charlotte,James Wilson,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,New,Online,9837.8,8750.0,88.94,105.36
+2025-01-03,January,Q1,2025,East,Philadelphia,Emily Watson,Electronics,"4K IPS Monitor 27""",4,450.0,1800.0,1160.0,640.0,35.56,Existing,Online,1898.96,1800.0,94.79,-57.75
+2025-01-07,January,Q1,2025,West,San Francisco,Alex Rivera,Accessories,Mechanical Ergonomic Keyboard,11,135.0,1485.0,715.0,770.0,51.85,New,Online,1638.64,1485.0,90.62,-17.52
+2025-01-07,January,Q1,2025,North,New York,David Miller,Furniture,Modular Conference Table,5,1150.0,5750.0,3600.0,2150.0,37.39,Existing,Offline,6535.81,5750.0,87.98,100.92
+2025-01-08,January,Q1,2025,South,Atlanta,Carlos Santana,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,Existing,Online,8035.78,6900.0,85.87,141.1
+2025-01-08,January,Q1,2025,North,Chicago,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,11,135.0,1485.0,715.0,770.0,51.85,Existing,Online,1594.82,1485.0,93.11,-17.52
+2025-01-09,January,Q1,2025,East,Philadelphia,James Wilson,Office Supplies,High-Capacity Toner Cartridge,30,95.0,2850.0,1350.0,1500.0,52.63,New,Offline,3339.33,2850.0,85.35,59.52
+2025-01-10,January,Q1,2025,South,Miami,Marcus Vance,Electronics,UltraBook Pro 15,4,1250.0,5000.0,3400.0,1600.0,32.0,Existing,Offline,5914.16,5000.0,84.54,17.35
+2025-01-10,January,Q1,2025,East,Washington DC,Emily Watson,Accessories,USB-C Dual-Display Dock,7,185.0,1295.0,665.0,630.0,48.65,Existing,Offline,1293.45,1295.0,100.12,-28.08
+2025-01-14,January,Q1,2025,West,Seattle,Alex Rivera,Office Supplies,High-Capacity Toner Cartridge,6,95.0,570.0,270.0,300.0,52.63,New,Offline,536.08,570.0,106.33,-68.1
+2025-01-14,January,Q1,2025,South,Dallas,Carlos Santana,Furniture,Executive Ergonomic Chair,7,380.0,2660.0,1540.0,1120.0,42.11,New,Offline,2840.31,2660.0,93.65,-7.05
+2025-01-15,January,Q1,2025,West,Los Angeles,Alex Rivera,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Offline,1003.28,1150.0,114.62,-59.82
+2025-01-16,January,Q1,2025,North,Chicago,David Miller,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,Existing,Offline,3821.4,3400.0,88.97,18.8
+2025-01-17,January,Q1,2025,South,Miami,Marcus Vance,Accessories,USB-C Dual-Display Dock,13,185.0,2405.0,1235.0,1170.0,48.65,Existing,Online,2393.44,2405.0,100.48,33.57
+2025-01-18,January,Q1,2025,West,Seattle,Alex Rivera,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,New,Online,2416.4,2720.0,112.56,-4.96
+2025-01-21,January,Q1,2025,North,Chicago,David Miller,Accessories,USB-C Dual-Display Dock,15,185.0,2775.0,1425.0,1350.0,48.65,Existing,Offline,3324.04,2775.0,83.48,54.12
+2025-01-21,January,Q1,2025,North,Chicago,David Miller,Office Supplies,Heavy-Duty Paper Shredder,7,165.0,1155.0,665.0,490.0,42.42,New,Offline,1099.57,1155.0,105.04,-35.35
+2025-01-22,January,Q1,2025,East,Charlotte,Emily Watson,Office Supplies,Heavy-Duty Paper Shredder,7,165.0,1155.0,665.0,490.0,42.42,Existing,Offline,1220.31,1155.0,94.65,-35.35
+2025-01-22,January,Q1,2025,South,Dallas,Marcus Vance,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,Existing,Offline,1861.99,1700.0,91.3,-4.85
+2025-01-24,January,Q1,2025,East,Washington DC,James Wilson,Office Supplies,Laser Multifunction Printer,11,340.0,3740.0,2365.0,1375.0,36.76,New,Online,4596.13,3740.0,81.37,109.34
+2025-01-24,January,Q1,2025,South,Miami,Marcus Vance,Electronics,UltraBook Pro 15,10,1250.0,12500.0,8500.0,4000.0,32.0,Existing,Online,10719.69,12500.0,116.61,193.37
+2025-01-24,January,Q1,2025,East,Charlotte,James Wilson,Office Supplies,Heavy-Duty Paper Shredder,3,165.0,495.0,285.0,210.0,42.42,Existing,Online,556.26,495.0,88.99,-72.29
+2025-01-25,January,Q1,2025,South,Atlanta,Marcus Vance,Office Supplies,High-Capacity Toner Cartridge,30,95.0,2850.0,1350.0,1500.0,52.63,New,Offline,2575.8,2850.0,110.65,59.52
+2025-01-25,January,Q1,2025,West,Los Angeles,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,16,165.0,2640.0,1520.0,1120.0,42.42,Existing,Offline,2364.97,2640.0,111.63,47.77
+2025-01-30,January,Q1,2025,East,Philadelphia,James Wilson,Accessories,Precision Wireless Mouse,36,75.0,2700.0,1260.0,1440.0,53.33,Existing,Offline,2583.06,2700.0,104.53,49.96
+2025-02-03,February,Q1,2025,East,Philadelphia,Emily Watson,Accessories,Precision Wireless Mouse,23,75.0,1725.0,805.0,920.0,53.33,Existing,Online,1829.7,1725.0,94.28,-4.19
+2025-02-05,February,Q1,2025,North,Boston,David Miller,Electronics,Wireless ANC Headphones,9,250.0,2250.0,1260.0,990.0,44.0,Existing,Online,2255.92,2250.0,99.74,-47.19
+2025-02-06,February,Q1,2025,West,Los Angeles,Alex Rivera,Furniture,Executive Ergonomic Chair,8,380.0,3040.0,1760.0,1280.0,42.11,New,Online,2744.74,3040.0,110.76,6.22
+2025-02-06,February,Q1,2025,East,Washington DC,James Wilson,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,New,Online,3160.57,2720.0,86.06,-4.96
+2025-02-07,February,Q1,2025,North,Boston,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,4,340.0,1360.0,860.0,500.0,36.76,New,Online,1327.36,1360.0,102.46,-23.88
+2025-02-08,February,Q1,2025,West,Los Angeles,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,3,165.0,495.0,285.0,210.0,42.42,Existing,Online,438.6,495.0,112.86,-72.29
+2025-02-10,February,Q1,2025,East,Philadelphia,James Wilson,Office Supplies,High-Capacity Toner Cartridge,20,95.0,1900.0,900.0,1000.0,52.63,New,Offline,1900.32,1900.0,99.98,6.35
+2025-02-11,February,Q1,2025,East,Charlotte,James Wilson,Office Supplies,Laser Multifunction Printer,8,340.0,2720.0,1720.0,1000.0,36.76,New,Offline,2982.26,2720.0,91.21,52.24
+2025-02-11,February,Q1,2025,West,Seattle,Alex Rivera,Accessories,Mechanical Ergonomic Keyboard,10,135.0,1350.0,650.0,700.0,51.85,New,Offline,1173.31,1350.0,115.06,-25.02
+2025-02-12,February,Q1,2025,East,Philadelphia,Emily Watson,Office Supplies,High-Capacity Toner Cartridge,15,95.0,1425.0,675.0,750.0,52.63,Existing,Offline,1364.62,1425.0,104.42,-20.24
+2025-02-14,February,Q1,2025,East,Charlotte,Emily Watson,Electronics,Wireless ANC Headphones,18,250.0,4500.0,2520.0,1980.0,44.0,Existing,Online,5007.39,4500.0,89.87,5.61
+2025-02-15,February,Q1,2025,East,Charlotte,Emily Watson,Office Supplies,Heavy-Duty Paper Shredder,12,165.0,1980.0,1140.0,840.0,42.42,Existing,Online,1932.6,1980.0,102.45,10.83
+2025-02-18,February,Q1,2025,South,Dallas,Marcus Vance,Accessories,USB-C Dual-Display Dock,20,185.0,3700.0,1900.0,1800.0,48.65,New,Online,3980.3,3700.0,92.96,105.5
+2025-02-19,February,Q1,2025,East,Charlotte,Emily Watson,Accessories,Mechanical Ergonomic Keyboard,13,135.0,1755.0,845.0,910.0,51.85,Existing,Online,2163.82,1755.0,81.11,-2.53
+2025-02-20,February,Q1,2025,South,Atlanta,Marcus Vance,Electronics,Wireless ANC Headphones,16,250.0,4000.0,2240.0,1760.0,44.0,New,Offline,3931.5,4000.0,101.74,-6.12
+2025-02-21,February,Q1,2025,East,Charlotte,James Wilson,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,New,Offline,824.12,680.0,82.51,-61.94
+2025-02-23,February,Q1,2025,North,Chicago,Sarah Jenkins,Furniture,Executive Ergonomic Chair,3,380.0,1140.0,660.0,480.0,42.11,Existing,Online,1177.41,1140.0,96.82,-60.17
+2025-02-24,February,Q1,2025,North,New York,Sarah Jenkins,Electronics,Wireless ANC Headphones,21,250.0,5250.0,2940.0,2310.0,44.0,Existing,Online,5539.05,5250.0,94.78,23.22
+2025-02-25,February,Q1,2025,South,Dallas,Marcus Vance,Accessories,Precision Wireless Mouse,11,75.0,825.0,385.0,440.0,53.33,Existing,Online,856.58,825.0,96.31,-54.18
+2025-02-27,February,Q1,2025,West,Seattle,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,9,165.0,1485.0,855.0,630.0,42.42,New,Offline,1775.5,1485.0,83.64,-16.88
+2025-03-01,March,Q1,2025,West,Los Angeles,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,10,165.0,1650.0,950.0,700.0,42.42,Existing,Online,1416.87,1650.0,116.45,-7.65
+2025-03-04,March,Q1,2025,North,Chicago,Sarah Jenkins,Electronics,"4K IPS Monitor 27""",14,450.0,6300.0,4060.0,2240.0,35.56,New,Offline,5774.17,6300.0,109.11,47.86
+2025-03-05,March,Q1,2025,West,San Francisco,Alex Rivera,Accessories,Precision Wireless Mouse,22,75.0,1650.0,770.0,880.0,53.33,New,Offline,1994.71,1650.0,82.72,-8.36
+2025-03-05,March,Q1,2025,South,Dallas,Marcus Vance,Furniture,Electric Standing Desk,7,680.0,4760.0,2870.0,1890.0,39.71,Existing,Online,5319.54,4760.0,89.48,66.32
+2025-03-07,March,Q1,2025,South,Atlanta,Marcus Vance,Accessories,Precision Wireless Mouse,8,75.0,600.0,280.0,320.0,53.33,Existing,Offline,534.89,600.0,112.17,-66.68
+2025-03-09,March,Q1,2025,North,Boston,David Miller,Furniture,Executive Ergonomic Chair,12,380.0,4560.0,2640.0,1920.0,42.11,New,Offline,4459.22,4560.0,102.26,59.34
+2025-03-09,March,Q1,2025,West,Los Angeles,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,8,165.0,1320.0,760.0,560.0,42.42,Existing,Offline,1214.29,1320.0,108.71,-26.12
+2025-03-10,March,Q1,2025,West,Los Angeles,Chloe Bennett,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,New,Offline,2015.66,2040.0,101.21,14.18
+2025-03-10,March,Q1,2025,East,Washington DC,James Wilson,Furniture,Executive Ergonomic Chair,8,380.0,3040.0,1760.0,1280.0,42.11,Existing,Online,3047.74,3040.0,99.75,6.22
+2025-03-12,March,Q1,2025,West,San Francisco,Chloe Bennett,Accessories,Mechanical Ergonomic Keyboard,9,135.0,1215.0,585.0,630.0,51.85,New,Offline,1225.0,1215.0,99.18,-32.52
+2025-03-14,March,Q1,2025,South,Miami,Marcus Vance,Accessories,Mechanical Ergonomic Keyboard,13,135.0,1755.0,845.0,910.0,51.85,New,Offline,1684.11,1755.0,104.21,-2.53
+2025-03-15,March,Q1,2025,East,Philadelphia,Emily Watson,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Offline,1548.32,1360.0,87.84,-52.48
+2025-03-15,March,Q1,2025,West,Los Angeles,Chloe Bennett,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,Existing,Offline,1249.5,1360.0,108.84,-52.48
+2025-03-17,March,Q1,2025,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,32,95.0,3040.0,1440.0,1600.0,52.63,Existing,Offline,3780.74,3040.0,80.41,70.16
+2025-03-20,March,Q1,2025,West,San Francisco,Alex Rivera,Accessories,Precision Wireless Mouse,5,75.0,375.0,175.0,200.0,53.33,Existing,Offline,326.87,375.0,114.72,-79.17
+2025-03-20,March,Q1,2025,South,Atlanta,Marcus Vance,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,Existing,Offline,2464.78,2300.0,93.31,-19.63
+2025-03-22,March,Q1,2025,North,Chicago,Sarah Jenkins,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,Existing,Online,829.76,680.0,81.95,-76.24
+2025-03-23,March,Q1,2025,West,Los Angeles,Chloe Bennett,Electronics,Wireless ANC Headphones,20,250.0,5000.0,2800.0,2200.0,44.0,Existing,Offline,5823.98,5000.0,85.85,17.35
+2025-03-24,March,Q1,2025,West,Seattle,Alex Rivera,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,Existing,Online,808.98,680.0,84.06,-76.24
+2025-03-25,March,Q1,2025,North,Chicago,David Miller,Accessories,Precision Wireless Mouse,30,75.0,2250.0,1050.0,1200.0,53.33,Existing,Online,2356.92,2250.0,95.46,24.97
+2025-03-26,March,Q1,2025,North,Boston,David Miller,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,Existing,Offline,3419.04,3750.0,109.68,-11.99
+2025-03-27,March,Q1,2025,South,Dallas,Marcus Vance,Accessories,Precision Wireless Mouse,20,75.0,1500.0,700.0,800.0,53.33,New,Offline,1544.84,1500.0,97.1,-16.69
+2025-03-28,March,Q1,2025,East,Philadelphia,James Wilson,Accessories,Mechanical Ergonomic Keyboard,19,135.0,2565.0,1235.0,1330.0,51.85,Existing,Online,2599.22,2565.0,98.68,42.46
+2025-03-28,March,Q1,2025,South,Dallas,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,16,165.0,2640.0,1520.0,1120.0,42.42,Existing,Online,3079.81,2640.0,85.72,47.77
+2025-03-29,March,Q1,2025,South,Miami,Carlos Santana,Accessories,USB-C Dual-Display Dock,20,185.0,3700.0,1900.0,1800.0,48.65,Existing,Online,4217.87,3700.0,87.72,105.5
+2025-03-29,March,Q1,2025,West,Los Angeles,Chloe Bennett,Electronics,Wireless ANC Headphones,18,250.0,4500.0,2520.0,1980.0,44.0,Existing,Offline,5336.75,4500.0,84.32,5.61
+2025-04-05,April,Q2,2025,South,Dallas,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,5,165.0,825.0,475.0,350.0,42.42,Existing,Offline,968.87,825.0,85.15,-53.82
+2025-04-06,April,Q2,2025,North,Chicago,Sarah Jenkins,Office Supplies,High-Capacity Toner Cartridge,9,95.0,855.0,405.0,450.0,52.63,New,Online,918.81,855.0,93.06,-52.14
+2025-04-07,April,Q2,2025,North,Boston,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,10,340.0,3400.0,2150.0,1250.0,36.76,Existing,Offline,4083.15,3400.0,83.27,90.31
+2025-04-09,April,Q2,2025,North,Boston,Sarah Jenkins,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,3016.63,2720.0,90.17,-4.96
+2025-04-09,April,Q2,2025,North,Chicago,Sarah Jenkins,Electronics,"4K IPS Monitor 27""",2,450.0,900.0,580.0,320.0,35.56,Existing,Offline,823.98,900.0,109.23,-78.88
+2025-04-10,April,Q2,2025,East,Washington DC,James Wilson,Furniture,Electric Standing Desk,7,680.0,4760.0,2870.0,1890.0,39.71,New,Online,4082.91,4760.0,116.58,66.32
+2025-04-10,April,Q2,2025,West,Seattle,Alex Rivera,Accessories,Precision Wireless Mouse,10,75.0,750.0,350.0,400.0,53.33,Existing,Online,836.74,750.0,89.63,-58.34
+2025-04-13,April,Q2,2025,North,Chicago,Sarah Jenkins,Electronics,UltraBook Pro 15,4,1250.0,5000.0,3400.0,1600.0,32.0,Existing,Online,4870.15,5000.0,102.67,17.35
+2025-04-15,April,Q2,2025,South,Dallas,Marcus Vance,Accessories,Precision Wireless Mouse,22,75.0,1650.0,770.0,880.0,53.33,Existing,Offline,1913.76,1650.0,86.22,-8.36
+2025-04-20,April,Q2,2025,West,Los Angeles,Alex Rivera,Accessories,Mechanical Ergonomic Keyboard,4,135.0,540.0,260.0,280.0,51.85,New,Online,555.36,540.0,97.23,-70.01
+2025-04-21,April,Q2,2025,East,Charlotte,Emily Watson,Electronics,"4K IPS Monitor 27""",9,450.0,4050.0,2610.0,1440.0,35.56,Existing,Offline,3927.13,4050.0,103.13,-4.95
+2025-04-21,April,Q2,2025,East,Washington DC,Emily Watson,Accessories,USB-C Dual-Display Dock,6,185.0,1110.0,570.0,540.0,48.65,Existing,Online,1081.6,1110.0,102.63,-38.35
+2025-04-21,April,Q2,2025,West,Los Angeles,Chloe Bennett,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,Existing,Online,2766.1,2300.0,83.15,-19.63
+2025-04-24,April,Q2,2025,North,Chicago,David Miller,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,New,Offline,7325.1,6900.0,94.2,141.1
+2025-04-24,April,Q2,2025,North,New York,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,27,135.0,3645.0,1755.0,1890.0,51.85,Existing,Online,4331.35,3645.0,84.15,102.44
+2025-04-25,April,Q2,2025,East,Philadelphia,James Wilson,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,New,Offline,5273.9,4600.0,87.22,60.73
+2025-04-25,April,Q2,2025,East,Washington DC,James Wilson,Accessories,Mechanical Ergonomic Keyboard,6,135.0,810.0,390.0,420.0,51.85,Existing,Offline,966.93,810.0,83.77,-55.01
+2025-04-29,April,Q2,2025,South,Miami,Marcus Vance,Furniture,Electric Standing Desk,6,680.0,4080.0,2460.0,1620.0,39.71,New,Offline,3851.31,4080.0,105.94,42.56
+2025-04-30,April,Q2,2025,East,Washington DC,Emily Watson,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Online,1244.62,1360.0,109.27,-52.48
+2025-05-01,May,Q2,2025,South,Dallas,Carlos Santana,Electronics,"4K IPS Monitor 27""",8,450.0,3600.0,2320.0,1280.0,35.56,Existing,Offline,3783.03,3600.0,95.16,-15.51
+2025-05-04,May,Q2,2025,South,Dallas,Carlos Santana,Office Supplies,Laser Multifunction Printer,10,340.0,3400.0,2150.0,1250.0,36.76,Existing,Offline,3980.71,3400.0,85.41,90.31
+2025-05-04,May,Q2,2025,North,New York,David Miller,Office Supplies,High-Capacity Toner Cartridge,7,95.0,665.0,315.0,350.0,52.63,Existing,Offline,605.61,665.0,109.81,-62.78
+2025-05-06,May,Q2,2025,South,Atlanta,Marcus Vance,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Offline,1579.93,1520.0,96.21,-46.89
+2025-05-08,May,Q2,2025,West,Seattle,Alex Rivera,Office Supplies,Laser Multifunction Printer,4,340.0,1360.0,860.0,500.0,36.76,New,Offline,1651.09,1360.0,82.37,-23.88
+2025-05-09,May,Q2,2025,South,Miami,Marcus Vance,Accessories,Precision Wireless Mouse,13,75.0,975.0,455.0,520.0,53.33,New,Offline,1065.15,975.0,91.54,-45.85
+2025-05-10,May,Q2,2025,East,Washington DC,James Wilson,Accessories,Precision Wireless Mouse,30,75.0,2250.0,1050.0,1200.0,53.33,Existing,Offline,2505.85,2250.0,89.79,24.97
+2025-05-16,May,Q2,2025,East,Charlotte,James Wilson,Accessories,USB-C Dual-Display Dock,15,185.0,2775.0,1425.0,1350.0,48.65,Existing,Online,3297.27,2775.0,84.16,54.12
+2025-05-17,May,Q2,2025,South,Atlanta,Carlos Santana,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,New,Offline,9625.32,8750.0,90.91,105.36
+2025-05-17,May,Q2,2025,North,New York,David Miller,Office Supplies,High-Capacity Toner Cartridge,20,95.0,1900.0,900.0,1000.0,52.63,Existing,Online,1654.05,1900.0,114.87,6.35
+2025-05-18,May,Q2,2025,West,Seattle,Alex Rivera,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,Existing,Offline,2181.34,2040.0,93.52,14.18
+2025-05-20,May,Q2,2025,North,New York,Sarah Jenkins,Electronics,Wireless ANC Headphones,8,250.0,2000.0,1120.0,880.0,44.0,Existing,Online,1750.82,2000.0,114.23,-53.06
+2025-05-20,May,Q2,2025,North,Chicago,David Miller,Office Supplies,High-Capacity Toner Cartridge,30,95.0,2850.0,1350.0,1500.0,52.63,Existing,Online,3430.54,2850.0,83.08,59.52
+2025-05-22,May,Q2,2025,North,Boston,Sarah Jenkins,Furniture,Electric Standing Desk,6,680.0,4080.0,2460.0,1620.0,39.71,Existing,Offline,4708.33,4080.0,86.65,42.56
+2025-05-24,May,Q2,2025,South,Miami,Marcus Vance,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,2486.49,2720.0,109.39,-4.96
+2025-05-24,May,Q2,2025,West,San Francisco,Alex Rivera,Office Supplies,Laser Multifunction Printer,10,340.0,3400.0,2150.0,1250.0,36.76,Existing,Offline,4023.36,3400.0,84.51,90.31
+2025-05-25,May,Q2,2025,West,San Francisco,Chloe Bennett,Accessories,Precision Wireless Mouse,28,75.0,2100.0,980.0,1120.0,53.33,Existing,Online,2163.61,2100.0,97.06,16.63
+2025-05-25,May,Q2,2025,West,Los Angeles,Chloe Bennett,Electronics,UltraBook Pro 15,2,1250.0,2500.0,1700.0,800.0,32.0,New,Online,2324.46,2500.0,107.55,-41.33
+2025-05-26,May,Q2,2025,North,Boston,David Miller,Accessories,Mechanical Ergonomic Keyboard,5,135.0,675.0,325.0,350.0,51.85,New,Offline,763.11,675.0,88.45,-62.51
+2025-05-27,May,Q2,2025,North,New York,Sarah Jenkins,Electronics,Wireless ANC Headphones,13,250.0,3250.0,1820.0,1430.0,44.0,Existing,Online,2956.12,3250.0,109.94,-23.72
+2025-05-29,May,Q2,2025,North,Chicago,David Miller,Accessories,USB-C Dual-Display Dock,5,185.0,925.0,475.0,450.0,48.65,New,Offline,927.37,925.0,99.74,-48.63
+2025-05-31,May,Q2,2025,South,Dallas,Marcus Vance,Office Supplies,Heavy-Duty Paper Shredder,14,165.0,2310.0,1330.0,980.0,42.42,New,Offline,2738.57,2310.0,84.35,29.3
+2025-05-31,May,Q2,2025,West,San Francisco,Alex Rivera,Electronics,Wireless ANC Headphones,18,250.0,4500.0,2520.0,1980.0,44.0,Existing,Online,5404.95,4500.0,83.26,5.61
+2025-06-02,June,Q2,2025,East,Philadelphia,James Wilson,Office Supplies,High-Capacity Toner Cartridge,8,95.0,760.0,360.0,400.0,52.63,Existing,Online,917.04,760.0,82.88,-57.46
+2025-06-03,June,Q2,2025,South,Miami,Carlos Santana,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,New,Offline,1834.66,1700.0,92.66,-4.85
+2025-06-04,June,Q2,2025,South,Atlanta,Carlos Santana,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Offline,2804.16,2380.0,84.87,33.21
+2025-06-07,June,Q2,2025,East,Philadelphia,James Wilson,Accessories,USB-C Dual-Display Dock,8,185.0,1480.0,760.0,720.0,48.65,Existing,Online,1318.92,1480.0,112.21,-17.8
+2025-06-09,June,Q2,2025,East,Charlotte,James Wilson,Accessories,Precision Wireless Mouse,33,75.0,2475.0,1155.0,1320.0,53.33,Existing,Online,2866.02,2475.0,86.36,37.46
+2025-06-10,June,Q2,2025,North,Boston,David Miller,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,New,Online,783.75,680.0,86.76,-61.94
+2025-06-11,June,Q2,2025,South,Dallas,Carlos Santana,Electronics,Wireless ANC Headphones,15,250.0,3750.0,2100.0,1650.0,44.0,Existing,Offline,3636.35,3750.0,103.13,-11.99
+2025-06-13,June,Q2,2025,South,Atlanta,Carlos Santana,Electronics,Wireless ANC Headphones,8,250.0,2000.0,1120.0,880.0,44.0,Existing,Offline,1800.95,2000.0,111.05,-53.06
+2025-06-14,June,Q2,2025,East,Philadelphia,Emily Watson,Accessories,USB-C Dual-Display Dock,19,185.0,3515.0,1805.0,1710.0,48.65,Existing,Online,3226.04,3515.0,108.96,95.22
+2025-06-15,June,Q2,2025,South,Dallas,Carlos Santana,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,Existing,Offline,3213.57,3060.0,95.22,71.28
+2025-06-16,June,Q2,2025,West,Los Angeles,Chloe Bennett,Office Supplies,High-Capacity Toner Cartridge,28,95.0,2660.0,1260.0,1400.0,52.63,New,Online,2403.06,2660.0,110.69,48.89
+2025-06-17,June,Q2,2025,North,Boston,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,10,340.0,3400.0,2150.0,1250.0,36.76,Existing,Online,3190.83,3400.0,106.56,90.31
+2025-06-17,June,Q2,2025,West,Seattle,Alex Rivera,Electronics,Wireless ANC Headphones,3,250.0,750.0,420.0,330.0,44.0,New,Online,712.99,750.0,105.19,-82.4
+2025-06-19,June,Q2,2025,North,Boston,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,Existing,Online,1691.34,1700.0,100.51,-4.85
+2025-06-20,June,Q2,2025,East,Washington DC,James Wilson,Office Supplies,Heavy-Duty Paper Shredder,6,165.0,990.0,570.0,420.0,42.42,Existing,Offline,986.35,990.0,100.37,-44.59
+2025-06-20,June,Q2,2025,North,Chicago,David Miller,Accessories,Precision Wireless Mouse,26,75.0,1950.0,910.0,1040.0,53.33,New,Offline,1717.08,1950.0,113.56,8.3
+2025-06-20,June,Q2,2025,North,Chicago,Sarah Jenkins,Furniture,Modular Conference Table,5,1150.0,5750.0,3600.0,2150.0,37.39,Existing,Online,6436.86,5750.0,89.33,100.92
+2025-06-21,June,Q2,2025,East,Philadelphia,Emily Watson,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Online,3082.32,2720.0,88.25,-4.96
+2025-06-22,June,Q2,2025,South,Miami,Marcus Vance,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Offline,2350.52,2380.0,101.25,33.21
+2025-06-27,June,Q2,2025,East,Washington DC,James Wilson,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,Existing,Online,6501.28,6900.0,106.13,141.1
+2025-06-27,June,Q2,2025,West,Los Angeles,Alex Rivera,Electronics,Wireless ANC Headphones,8,250.0,2000.0,1120.0,880.0,44.0,New,Offline,2195.77,2000.0,91.08,-53.06
+2025-06-28,June,Q2,2025,North,New York,David Miller,Accessories,Mechanical Ergonomic Keyboard,8,135.0,1080.0,520.0,560.0,51.85,Existing,Online,918.52,1080.0,117.58,-40.02
+2025-06-29,June,Q2,2025,South,Atlanta,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,5,165.0,825.0,475.0,350.0,42.42,New,Offline,840.89,825.0,98.11,-53.82
+2025-06-30,June,Q2,2025,East,Washington DC,James Wilson,Furniture,Modular Conference Table,5,1150.0,5750.0,3600.0,2150.0,37.39,Existing,Offline,6733.98,5750.0,85.39,100.92
+2025-06-30,June,Q2,2025,South,Atlanta,Carlos Santana,Office Supplies,Laser Multifunction Printer,6,340.0,2040.0,1290.0,750.0,36.76,Existing,Offline,2188.47,2040.0,93.22,14.18
+2025-07-01,July,Q3,2025,North,New York,Sarah Jenkins,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,New,Offline,2901.16,3400.0,117.19,18.8
+2025-07-03,July,Q3,2025,East,Charlotte,James Wilson,Electronics,"4K IPS Monitor 27""",6,450.0,2700.0,1740.0,960.0,35.56,Existing,Online,3325.12,2700.0,81.2,-36.63
+2025-07-04,July,Q3,2025,South,Dallas,Carlos Santana,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,Existing,Offline,7355.93,6900.0,93.8,141.1
+2025-07-04,July,Q3,2025,North,Boston,Sarah Jenkins,Furniture,Executive Ergonomic Chair,12,380.0,4560.0,2640.0,1920.0,42.11,Existing,Online,5126.18,4560.0,88.96,59.34
+2025-07-05,July,Q3,2025,East,Charlotte,James Wilson,Accessories,USB-C Dual-Display Dock,15,185.0,2775.0,1425.0,1350.0,48.65,Existing,Offline,2512.3,2775.0,110.46,54.12
+2025-07-05,July,Q3,2025,South,Dallas,Carlos Santana,Electronics,"4K IPS Monitor 27""",12,450.0,5400.0,3480.0,1920.0,35.56,Existing,Offline,6022.92,5400.0,89.66,26.74
+2025-07-06,July,Q3,2025,North,Chicago,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,6,135.0,810.0,390.0,420.0,51.85,Existing,Offline,932.87,810.0,86.83,-55.01
+2025-07-06,July,Q3,2025,North,Boston,David Miller,Accessories,USB-C Dual-Display Dock,7,185.0,1295.0,665.0,630.0,48.65,Existing,Online,1194.43,1295.0,108.42,-28.08
+2025-07-06,July,Q3,2025,South,Miami,Carlos Santana,Furniture,Executive Ergonomic Chair,9,380.0,3420.0,1980.0,1440.0,42.11,Existing,Online,3039.6,3420.0,112.51,19.5
+2025-07-07,July,Q3,2025,East,Charlotte,James Wilson,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,New,Online,2910.03,2720.0,93.47,-4.96
+2025-07-08,July,Q3,2025,North,Chicago,David Miller,Accessories,USB-C Dual-Display Dock,13,185.0,2405.0,1235.0,1170.0,48.65,Existing,Offline,2907.16,2405.0,82.73,33.57
+2025-07-10,July,Q3,2025,West,Seattle,Chloe Bennett,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Online,2204.41,1900.0,86.19,-33.61
+2025-07-11,July,Q3,2025,North,Chicago,David Miller,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,Existing,Online,7494.35,8750.0,116.75,105.36
+2025-07-12,July,Q3,2025,North,Boston,David Miller,Electronics,UltraBook Pro 15,1,1250.0,1250.0,850.0,400.0,32.0,New,Online,1363.51,1250.0,91.68,-70.66
+2025-07-12,July,Q3,2025,East,Charlotte,James Wilson,Office Supplies,High-Capacity Toner Cartridge,12,95.0,1140.0,540.0,600.0,52.63,Existing,Offline,1104.63,1140.0,103.2,-36.19
+2025-07-12,July,Q3,2025,South,Miami,Marcus Vance,Accessories,Precision Wireless Mouse,34,75.0,2550.0,1190.0,1360.0,53.33,Existing,Online,2981.14,2550.0,85.54,41.63
+2025-07-12,July,Q3,2025,East,Charlotte,Emily Watson,Furniture,Electric Standing Desk,6,680.0,4080.0,2460.0,1620.0,39.71,Existing,Online,4895.62,4080.0,83.34,42.56
+2025-07-15,July,Q3,2025,West,San Francisco,Chloe Bennett,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,New,Offline,2789.33,2300.0,82.46,-19.63
+2025-07-15,July,Q3,2025,West,San Francisco,Alex Rivera,Accessories,USB-C Dual-Display Dock,17,185.0,3145.0,1615.0,1530.0,48.65,Existing,Offline,3382.74,3145.0,92.97,74.67
+2025-07-16,July,Q3,2025,North,Chicago,David Miller,Accessories,Mechanical Ergonomic Keyboard,13,135.0,1755.0,845.0,910.0,51.85,New,Offline,2098.04,1755.0,83.65,-2.53
+2025-07-17,July,Q3,2025,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,17,95.0,1615.0,765.0,850.0,52.63,New,Online,1556.53,1615.0,103.76,-9.6
+2025-07-17,July,Q3,2025,North,Chicago,Sarah Jenkins,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,New,Offline,3490.26,3450.0,98.85,20.55
+2025-07-18,July,Q3,2025,East,Philadelphia,James Wilson,Accessories,USB-C Dual-Display Dock,20,185.0,3700.0,1900.0,1800.0,48.65,New,Offline,4020.88,3700.0,92.02,105.5
+2025-07-19,July,Q3,2025,East,Charlotte,James Wilson,Accessories,USB-C Dual-Display Dock,9,185.0,1665.0,855.0,810.0,48.65,Existing,Online,1567.03,1665.0,106.25,-7.53
+2025-07-19,July,Q3,2025,West,San Francisco,Alex Rivera,Accessories,Precision Wireless Mouse,15,75.0,1125.0,525.0,600.0,53.33,New,Offline,1246.46,1125.0,90.26,-37.52
+2025-07-24,July,Q3,2025,East,Philadelphia,James Wilson,Electronics,UltraBook Pro 15,5,1250.0,6250.0,4250.0,2000.0,32.0,Existing,Online,6994.57,6250.0,89.36,46.69
+2025-07-24,July,Q3,2025,South,Atlanta,Carlos Santana,Electronics,Wireless ANC Headphones,17,250.0,4250.0,2380.0,1870.0,44.0,Existing,Offline,4624.77,4250.0,91.9,-0.25
+2025-07-25,July,Q3,2025,South,Dallas,Marcus Vance,Office Supplies,High-Capacity Toner Cartridge,9,95.0,855.0,405.0,450.0,52.63,Existing,Offline,917.94,855.0,93.14,-52.14
+2025-07-28,July,Q3,2025,East,Washington DC,Emily Watson,Office Supplies,High-Capacity Toner Cartridge,7,95.0,665.0,315.0,350.0,52.63,New,Online,651.74,665.0,102.03,-62.78
+2025-07-28,July,Q3,2025,South,Miami,Carlos Santana,Furniture,Executive Ergonomic Chair,9,380.0,3420.0,1980.0,1440.0,42.11,Existing,Offline,2915.89,3420.0,117.29,19.5
+2025-07-28,July,Q3,2025,North,New York,David Miller,Office Supplies,High-Capacity Toner Cartridge,12,95.0,1140.0,540.0,600.0,52.63,Existing,Offline,1252.24,1140.0,91.04,-36.19
+2025-07-28,July,Q3,2025,East,Charlotte,Emily Watson,Accessories,Mechanical Ergonomic Keyboard,6,135.0,810.0,390.0,420.0,51.85,Existing,Online,915.65,810.0,88.46,-55.01
+2025-07-30,July,Q3,2025,East,Philadelphia,Emily Watson,Electronics,"4K IPS Monitor 27""",10,450.0,4500.0,2900.0,1600.0,35.56,Existing,Offline,5248.33,4500.0,85.74,5.61
+2025-07-31,July,Q3,2025,East,Charlotte,Emily Watson,Office Supplies,High-Capacity Toner Cartridge,16,95.0,1520.0,720.0,800.0,52.63,Existing,Offline,1761.75,1520.0,86.28,-14.92
+2025-08-02,August,Q3,2025,East,Washington DC,James Wilson,Electronics,Wireless ANC Headphones,3,250.0,750.0,420.0,330.0,44.0,New,Online,906.23,750.0,82.76,-82.4
+2025-08-03,August,Q3,2025,East,Philadelphia,James Wilson,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,New,Online,3512.87,3060.0,87.11,71.28
+2025-08-04,August,Q3,2025,North,New York,Sarah Jenkins,Electronics,Wireless ANC Headphones,22,250.0,5500.0,3080.0,2420.0,44.0,New,Online,5649.85,5500.0,97.35,29.08
+2025-08-08,August,Q3,2025,South,Miami,Marcus Vance,Electronics,"4K IPS Monitor 27""",13,450.0,5850.0,3770.0,2080.0,35.56,New,Online,5983.89,5850.0,97.76,37.3
+2025-08-08,August,Q3,2025,South,Atlanta,Marcus Vance,Accessories,Mechanical Ergonomic Keyboard,10,135.0,1350.0,650.0,700.0,51.85,New,Online,1158.33,1350.0,116.55,-25.02
+2025-08-09,August,Q3,2025,South,Atlanta,Marcus Vance,Furniture,Electric Standing Desk,3,680.0,2040.0,1230.0,810.0,39.71,Existing,Offline,2524.9,2040.0,80.8,-28.72
+2025-08-10,August,Q3,2025,West,San Francisco,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,4,165.0,660.0,380.0,280.0,42.42,Existing,Online,628.56,660.0,105.0,-63.06
+2025-08-10,August,Q3,2025,North,New York,Sarah Jenkins,Electronics,UltraBook Pro 15,1,1250.0,1250.0,850.0,400.0,32.0,New,Online,1253.99,1250.0,99.68,-70.66
+2025-08-10,August,Q3,2025,West,Los Angeles,Chloe Bennett,Office Supplies,High-Capacity Toner Cartridge,5,95.0,475.0,225.0,250.0,52.63,Existing,Offline,471.0,475.0,100.85,-73.41
+2025-08-12,August,Q3,2025,South,Dallas,Carlos Santana,Furniture,Electric Standing Desk,7,680.0,4760.0,2870.0,1890.0,39.71,Existing,Offline,4426.42,4760.0,107.54,66.32
+2025-08-12,August,Q3,2025,North,Boston,David Miller,Accessories,USB-C Dual-Display Dock,4,185.0,740.0,380.0,360.0,48.65,Existing,Online,782.61,740.0,94.56,-58.9
+2025-08-12,August,Q3,2025,South,Dallas,Carlos Santana,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,Existing,Offline,7098.53,6900.0,97.2,141.1
+2025-08-13,August,Q3,2025,East,Charlotte,James Wilson,Accessories,Precision Wireless Mouse,32,75.0,2400.0,1120.0,1280.0,53.33,Existing,Online,2213.18,2400.0,108.44,33.3
+2025-08-15,August,Q3,2025,South,Miami,Marcus Vance,Accessories,USB-C Dual-Display Dock,18,185.0,3330.0,1710.0,1620.0,48.65,New,Offline,3655.99,3330.0,91.08,84.95
+2025-08-15,August,Q3,2025,North,Chicago,David Miller,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,New,Offline,1871.52,1700.0,90.84,-4.85
+2025-08-15,August,Q3,2025,North,Boston,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,11,340.0,3740.0,2365.0,1375.0,36.76,Existing,Online,3569.11,3740.0,104.79,109.34
+2025-08-17,August,Q3,2025,South,Atlanta,Carlos Santana,Accessories,USB-C Dual-Display Dock,4,185.0,740.0,380.0,360.0,48.65,Existing,Online,642.46,740.0,115.18,-58.9
+2025-08-19,August,Q3,2025,South,Atlanta,Carlos Santana,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,Existing,Offline,1274.29,1360.0,106.73,-52.48
+2025-08-19,August,Q3,2025,North,Chicago,David Miller,Accessories,Precision Wireless Mouse,20,75.0,1500.0,700.0,800.0,53.33,New,Online,1459.08,1500.0,102.8,-16.69
+2025-08-20,August,Q3,2025,East,Charlotte,Emily Watson,Accessories,USB-C Dual-Display Dock,18,185.0,3330.0,1710.0,1620.0,48.65,New,Offline,4125.28,3330.0,80.72,84.95
+2025-08-21,August,Q3,2025,North,Boston,David Miller,Office Supplies,High-Capacity Toner Cartridge,5,95.0,475.0,225.0,250.0,52.63,Existing,Online,477.85,475.0,99.4,-73.41
+2025-08-21,August,Q3,2025,North,New York,Sarah Jenkins,Electronics,Wireless ANC Headphones,17,250.0,4250.0,2380.0,1870.0,44.0,Existing,Online,4523.57,4250.0,93.95,-0.25
+2025-08-22,August,Q3,2025,East,Washington DC,James Wilson,Office Supplies,High-Capacity Toner Cartridge,21,95.0,1995.0,945.0,1050.0,52.63,Existing,Online,2255.77,1995.0,88.44,11.66
+2025-08-23,August,Q3,2025,North,Chicago,David Miller,Accessories,Precision Wireless Mouse,20,75.0,1500.0,700.0,800.0,53.33,New,Online,1535.69,1500.0,97.68,-16.69
+2025-08-24,August,Q3,2025,South,Dallas,Marcus Vance,Office Supplies,High-Capacity Toner Cartridge,24,95.0,2280.0,1080.0,1200.0,52.63,Existing,Offline,1967.84,2280.0,115.86,27.62
+2025-08-26,August,Q3,2025,South,Miami,Marcus Vance,Office Supplies,Laser Multifunction Printer,10,340.0,3400.0,2150.0,1250.0,36.76,Existing,Offline,4068.98,3400.0,83.56,90.31
+2025-08-27,August,Q3,2025,West,Los Angeles,Chloe Bennett,Electronics,Wireless ANC Headphones,22,250.0,5500.0,3080.0,2420.0,44.0,Existing,Online,4738.4,5500.0,116.07,29.08
+2025-08-27,August,Q3,2025,South,Atlanta,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,11,165.0,1815.0,1045.0,770.0,42.42,Existing,Offline,1808.33,1815.0,100.37,1.59
+2025-08-31,August,Q3,2025,South,Dallas,Marcus Vance,Electronics,Wireless ANC Headphones,12,250.0,3000.0,1680.0,1320.0,44.0,New,Online,3559.94,3000.0,84.27,-29.59
+2025-09-03,September,Q3,2025,South,Dallas,Carlos Santana,Furniture,Electric Standing Desk,5,680.0,3400.0,2050.0,1350.0,39.71,Existing,Offline,4114.21,3400.0,82.64,18.8
+2025-09-05,September,Q3,2025,South,Atlanta,Marcus Vance,Office Supplies,High-Capacity Toner Cartridge,14,95.0,1330.0,630.0,700.0,52.63,Existing,Offline,1372.07,1330.0,96.93,-25.56
+2025-09-06,September,Q3,2025,West,Los Angeles,Chloe Bennett,Accessories,Mechanical Ergonomic Keyboard,8,135.0,1080.0,520.0,560.0,51.85,Existing,Offline,1348.91,1080.0,80.06,-40.02
+2025-09-06,September,Q3,2025,West,San Francisco,Alex Rivera,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,3100.25,2720.0,87.73,-4.96
+2025-09-12,September,Q3,2025,South,Dallas,Marcus Vance,Office Supplies,Heavy-Duty Paper Shredder,14,165.0,2310.0,1330.0,980.0,42.42,Existing,Online,2688.62,2310.0,85.92,29.3
+2025-09-16,September,Q3,2025,North,New York,Sarah Jenkins,Furniture,Electric Standing Desk,2,680.0,1360.0,820.0,540.0,39.71,New,Online,1196.84,1360.0,113.63,-52.48
+2025-09-16,September,Q3,2025,South,Dallas,Carlos Santana,Furniture,Electric Standing Desk,7,680.0,4760.0,2870.0,1890.0,39.71,Existing,Online,5184.37,4760.0,91.81,66.32
+2025-09-17,September,Q3,2025,East,Charlotte,James Wilson,Furniture,Executive Ergonomic Chair,10,380.0,3800.0,2200.0,1600.0,42.11,New,Offline,4422.24,3800.0,85.93,32.78
+2025-09-18,September,Q3,2025,East,Charlotte,James Wilson,Furniture,Executive Ergonomic Chair,3,380.0,1140.0,660.0,480.0,42.11,New,Online,1047.73,1140.0,108.81,-60.17
+2025-09-19,September,Q3,2025,North,Boston,David Miller,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,New,Online,4318.48,4600.0,106.52,60.73
+2025-09-20,September,Q3,2025,North,New York,David Miller,Accessories,Mechanical Ergonomic Keyboard,4,135.0,540.0,260.0,280.0,51.85,Existing,Offline,560.88,540.0,96.28,-70.01
+2025-09-20,September,Q3,2025,South,Dallas,Carlos Santana,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,Existing,Online,782.63,680.0,86.89,-61.94
+2025-09-22,September,Q3,2025,South,Atlanta,Marcus Vance,Furniture,Electric Standing Desk,7,680.0,4760.0,2870.0,1890.0,39.71,New,Offline,4216.59,4760.0,112.89,66.32
+2025-09-24,September,Q3,2025,West,Los Angeles,Chloe Bennett,Electronics,"4K IPS Monitor 27""",8,450.0,3600.0,2320.0,1280.0,35.56,Existing,Online,3907.97,3600.0,92.12,-15.51
+2025-09-24,September,Q3,2025,South,Miami,Carlos Santana,Accessories,USB-C Dual-Display Dock,5,185.0,925.0,475.0,450.0,48.65,Existing,Online,874.52,925.0,105.77,-48.63
+2025-09-26,September,Q3,2025,East,Washington DC,James Wilson,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,Existing,Offline,1097.52,1020.0,92.94,-42.91
+2025-09-27,September,Q3,2025,North,Chicago,Sarah Jenkins,Office Supplies,Heavy-Duty Paper Shredder,4,165.0,660.0,380.0,280.0,42.42,Existing,Online,639.77,660.0,103.16,-63.06
+2025-09-28,September,Q3,2025,North,Boston,David Miller,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,New,Offline,4569.81,3750.0,82.06,-11.99
+2025-09-30,September,Q3,2025,West,Los Angeles,Alex Rivera,Electronics,UltraBook Pro 15,9,1250.0,11250.0,7650.0,3600.0,32.0,Existing,Offline,13339.7,11250.0,84.33,164.03
+2025-10-02,October,Q4,2025,West,San Francisco,Alex Rivera,Furniture,Electric Standing Desk,3,680.0,2040.0,1230.0,810.0,39.71,Existing,Offline,2303.77,2040.0,88.55,-28.72
+2025-10-02,October,Q4,2025,East,Washington DC,James Wilson,Electronics,"4K IPS Monitor 27""",14,450.0,6300.0,4060.0,2240.0,35.56,Existing,Online,7766.61,6300.0,81.12,47.86
+2025-10-03,October,Q4,2025,North,Boston,Sarah Jenkins,Electronics,UltraBook Pro 15,9,1250.0,11250.0,7650.0,3600.0,32.0,Existing,Offline,12167.55,11250.0,92.46,164.03
+2025-10-04,October,Q4,2025,East,Philadelphia,James Wilson,Electronics,"4K IPS Monitor 27""",9,450.0,4050.0,2610.0,1440.0,35.56,Existing,Online,3887.47,4050.0,104.18,-4.95
+2025-10-07,October,Q4,2025,South,Atlanta,Marcus Vance,Electronics,UltraBook Pro 15,4,1250.0,5000.0,3400.0,1600.0,32.0,Existing,Online,5485.67,5000.0,91.15,17.35
+2025-10-07,October,Q4,2025,East,Washington DC,James Wilson,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,Existing,Offline,594.33,680.0,114.41,-76.24
+2025-10-08,October,Q4,2025,East,Philadelphia,James Wilson,Electronics,"4K IPS Monitor 27""",10,450.0,4500.0,2900.0,1600.0,35.56,Existing,Online,5127.72,4500.0,87.76,5.61
+2025-10-09,October,Q4,2025,South,Atlanta,Marcus Vance,Accessories,USB-C Dual-Display Dock,12,185.0,2220.0,1140.0,1080.0,48.65,Existing,Offline,2004.81,2220.0,110.73,23.3
+2025-10-10,October,Q4,2025,North,Boston,Sarah Jenkins,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,Existing,Offline,4057.25,3450.0,85.03,20.55
+2025-10-11,October,Q4,2025,South,Miami,Carlos Santana,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,New,Online,3357.91,3450.0,102.74,20.55
+2025-10-13,October,Q4,2025,North,Boston,David Miller,Office Supplies,High-Capacity Toner Cartridge,5,95.0,475.0,225.0,250.0,52.63,New,Online,416.63,475.0,114.01,-73.41
+2025-10-14,October,Q4,2025,North,Boston,David Miller,Electronics,"4K IPS Monitor 27""",5,450.0,2250.0,1450.0,800.0,35.56,Existing,Offline,2693.07,2250.0,83.55,-47.19
+2025-10-14,October,Q4,2025,West,Los Angeles,Chloe Bennett,Furniture,Electric Standing Desk,8,680.0,5440.0,3280.0,2160.0,39.71,New,Online,4732.0,5440.0,114.96,90.09
+2025-10-15,October,Q4,2025,West,Los Angeles,Alex Rivera,Electronics,UltraBook Pro 15,10,1250.0,12500.0,8500.0,4000.0,32.0,Existing,Offline,11818.93,12500.0,105.76,193.37
+2025-10-15,October,Q4,2025,South,Atlanta,Marcus Vance,Office Supplies,Laser Multifunction Printer,7,340.0,2380.0,1505.0,875.0,36.76,Existing,Online,2756.77,2380.0,86.33,33.21
+2025-10-16,October,Q4,2025,North,New York,David Miller,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,New,Online,2177.91,1900.0,87.24,-33.61
+2025-10-16,October,Q4,2025,North,Chicago,Sarah Jenkins,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,New,Online,6746.87,6900.0,102.27,141.1
+2025-10-17,October,Q4,2025,South,Atlanta,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,16,165.0,2640.0,1520.0,1120.0,42.42,New,Online,2405.58,2640.0,109.74,47.77
+2025-10-18,October,Q4,2025,West,San Francisco,Chloe Bennett,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Online,3107.46,2720.0,87.53,-4.96
+2025-10-18,October,Q4,2025,East,Charlotte,Emily Watson,Accessories,USB-C Dual-Display Dock,16,185.0,2960.0,1520.0,1440.0,48.65,Existing,Online,3568.57,2960.0,82.95,64.4
+2025-10-19,October,Q4,2025,North,Boston,Sarah Jenkins,Electronics,"4K IPS Monitor 27""",12,450.0,5400.0,3480.0,1920.0,35.56,New,Online,4886.98,5400.0,110.5,26.74
+2025-10-19,October,Q4,2025,East,Philadelphia,James Wilson,Electronics,"4K IPS Monitor 27""",14,450.0,6300.0,4060.0,2240.0,35.56,New,Offline,6231.78,6300.0,101.09,47.86
+2025-10-20,October,Q4,2025,South,Miami,Carlos Santana,Accessories,Precision Wireless Mouse,35,75.0,2625.0,1225.0,1400.0,53.33,Existing,Offline,2297.51,2625.0,114.25,45.79
+2025-10-22,October,Q4,2025,East,Philadelphia,James Wilson,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,3208.72,2720.0,84.77,-4.96
+2025-10-23,October,Q4,2025,North,New York,Sarah Jenkins,Office Supplies,Heavy-Duty Paper Shredder,14,165.0,2310.0,1330.0,980.0,42.42,Existing,Offline,2807.32,2310.0,82.28,29.3
+2025-10-23,October,Q4,2025,West,Seattle,Chloe Bennett,Office Supplies,High-Capacity Toner Cartridge,32,95.0,3040.0,1440.0,1600.0,52.63,Existing,Online,2681.58,3040.0,113.37,70.16
+2025-10-23,October,Q4,2025,North,New York,David Miller,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,New,Offline,895.97,1020.0,113.84,-42.91
+2025-10-25,October,Q4,2025,East,Charlotte,Emily Watson,Electronics,UltraBook Pro 15,6,1250.0,7500.0,5100.0,2400.0,32.0,Existing,Online,8646.85,7500.0,86.74,76.02
+2025-10-25,October,Q4,2025,North,Boston,Sarah Jenkins,Accessories,Precision Wireless Mouse,20,75.0,1500.0,700.0,800.0,53.33,Existing,Online,1473.59,1500.0,101.79,-16.69
+2025-10-26,October,Q4,2025,East,Philadelphia,James Wilson,Accessories,Precision Wireless Mouse,21,75.0,1575.0,735.0,840.0,53.33,Existing,Online,1576.05,1575.0,99.93,-12.52
+2025-10-26,October,Q4,2025,West,San Francisco,Alex Rivera,Electronics,UltraBook Pro 15,1,1250.0,1250.0,850.0,400.0,32.0,New,Online,1111.1,1250.0,112.5,-70.66
+2025-10-27,October,Q4,2025,South,Dallas,Carlos Santana,Accessories,Precision Wireless Mouse,18,75.0,1350.0,630.0,720.0,53.33,Existing,Online,1369.82,1350.0,98.55,-25.02
+2025-10-28,October,Q4,2025,North,Chicago,David Miller,Office Supplies,Heavy-Duty Paper Shredder,12,165.0,1980.0,1140.0,840.0,42.42,New,Offline,2207.28,1980.0,89.7,10.83
+2025-10-28,October,Q4,2025,South,Atlanta,Carlos Santana,Electronics,"4K IPS Monitor 27""",14,450.0,6300.0,4060.0,2240.0,35.56,Existing,Online,6158.17,6300.0,102.3,47.86
+2025-10-29,October,Q4,2025,South,Dallas,Marcus Vance,Electronics,Wireless ANC Headphones,19,250.0,4750.0,2660.0,2090.0,44.0,Existing,Online,4228.19,4750.0,112.34,11.48
+2025-10-29,October,Q4,2025,North,New York,Sarah Jenkins,Electronics,Wireless ANC Headphones,16,250.0,4000.0,2240.0,1760.0,44.0,Existing,Online,4041.66,4000.0,98.97,-6.12
+2025-10-30,October,Q4,2025,West,Seattle,Chloe Bennett,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,Existing,Online,2638.77,3060.0,115.96,71.28
+2025-10-31,October,Q4,2025,North,Boston,David Miller,Accessories,Mechanical Ergonomic Keyboard,7,135.0,945.0,455.0,490.0,51.85,Existing,Online,846.88,945.0,111.59,-47.51
+2025-10-31,October,Q4,2025,North,New York,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,Existing,Offline,3181.66,3060.0,96.18,71.28
+2025-11-01,November,Q4,2025,East,Washington DC,Emily Watson,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,Existing,Online,6958.9,6900.0,99.15,141.1
+2025-11-01,November,Q4,2025,West,Los Angeles,Chloe Bennett,Electronics,UltraBook Pro 15,3,1250.0,3750.0,2550.0,1200.0,32.0,New,Online,4100.48,3750.0,91.45,-11.99
+2025-11-01,November,Q4,2025,South,Dallas,Carlos Santana,Furniture,Executive Ergonomic Chair,8,380.0,3040.0,1760.0,1280.0,42.11,New,Offline,3089.84,3040.0,98.39,6.22
+2025-11-02,November,Q4,2025,East,Washington DC,Emily Watson,Furniture,Modular Conference Table,4,1150.0,4600.0,2880.0,1720.0,37.39,Existing,Offline,5556.13,4600.0,82.79,60.73
+2025-11-03,November,Q4,2025,South,Dallas,Marcus Vance,Accessories,USB-C Dual-Display Dock,7,185.0,1295.0,665.0,630.0,48.65,Existing,Online,1440.59,1295.0,89.89,-28.08
+2025-11-06,November,Q4,2025,South,Miami,Marcus Vance,Accessories,Mechanical Ergonomic Keyboard,24,135.0,3240.0,1560.0,1680.0,51.85,New,Offline,2797.24,3240.0,115.83,79.95
+2025-11-07,November,Q4,2025,North,Chicago,Sarah Jenkins,Office Supplies,Heavy-Duty Paper Shredder,6,165.0,990.0,570.0,420.0,42.42,New,Online,1157.3,990.0,85.54,-44.59
+2025-11-07,November,Q4,2025,East,Washington DC,James Wilson,Accessories,USB-C Dual-Display Dock,16,185.0,2960.0,1520.0,1440.0,48.65,New,Online,3045.4,2960.0,97.2,64.4
+2025-11-08,November,Q4,2025,South,Miami,Carlos Santana,Electronics,"4K IPS Monitor 27""",4,450.0,1800.0,1160.0,640.0,35.56,Existing,Online,1621.69,1800.0,111.0,-57.75
+2025-11-09,November,Q4,2025,West,San Francisco,Alex Rivera,Furniture,Electric Standing Desk,7,680.0,4760.0,2870.0,1890.0,39.71,Existing,Online,4289.32,4760.0,110.97,66.32
+2025-11-13,November,Q4,2025,West,Los Angeles,Chloe Bennett,Electronics,UltraBook Pro 15,1,1250.0,1250.0,850.0,400.0,32.0,Existing,Online,1070.86,1250.0,116.73,-70.66
+2025-11-14,November,Q4,2025,West,Los Angeles,Chloe Bennett,Office Supplies,Laser Multifunction Printer,2,340.0,680.0,430.0,250.0,36.76,Existing,Online,617.53,680.0,110.12,-61.94
+2025-11-15,November,Q4,2025,South,Miami,Carlos Santana,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,Existing,Offline,2649.84,3060.0,115.48,71.28
+2025-11-16,November,Q4,2025,East,Philadelphia,James Wilson,Office Supplies,Laser Multifunction Printer,4,340.0,1360.0,860.0,500.0,36.76,Existing,Online,1328.0,1360.0,102.41,-23.88
+2025-11-17,November,Q4,2025,North,New York,David Miller,Electronics,Wireless ANC Headphones,12,250.0,3000.0,1680.0,1320.0,44.0,Existing,Online,2624.44,3000.0,114.31,-29.59
+2025-11-18,November,Q4,2025,West,Seattle,Chloe Bennett,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,New,Offline,1977.27,2300.0,116.32,-19.63
+2025-11-18,November,Q4,2025,South,Dallas,Marcus Vance,Furniture,Modular Conference Table,3,1150.0,3450.0,2160.0,1290.0,37.39,Existing,Online,4225.78,3450.0,81.64,20.55
+2025-11-19,November,Q4,2025,North,New York,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,9,340.0,3060.0,1935.0,1125.0,36.76,New,Online,3658.21,3060.0,83.65,71.28
+2025-11-19,November,Q4,2025,East,Charlotte,James Wilson,Accessories,Mechanical Ergonomic Keyboard,15,135.0,2025.0,975.0,1050.0,51.85,New,Online,1741.52,2025.0,116.28,12.47
+2025-11-25,November,Q4,2025,West,Los Angeles,Chloe Bennett,Furniture,Modular Conference Table,1,1150.0,1150.0,720.0,430.0,37.39,Existing,Offline,1409.17,1150.0,81.61,-59.82
+2025-11-26,November,Q4,2025,South,Atlanta,Marcus Vance,Accessories,USB-C Dual-Display Dock,17,185.0,3145.0,1615.0,1530.0,48.65,New,Online,3652.62,3145.0,86.1,74.67
+2025-11-27,November,Q4,2025,South,Miami,Carlos Santana,Electronics,"4K IPS Monitor 27""",10,450.0,4500.0,2900.0,1600.0,35.56,Existing,Online,4062.5,4500.0,110.77,5.61
+2025-11-27,November,Q4,2025,West,San Francisco,Chloe Bennett,Office Supplies,Heavy-Duty Paper Shredder,15,165.0,2475.0,1425.0,1050.0,42.42,Existing,Online,2657.25,2475.0,93.14,38.53
+2025-11-29,November,Q4,2025,North,Chicago,Sarah Jenkins,Accessories,Mechanical Ergonomic Keyboard,9,135.0,1215.0,585.0,630.0,51.85,Existing,Online,1155.41,1215.0,105.16,-32.52
+2025-11-30,November,Q4,2025,South,Dallas,Marcus Vance,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Online,1769.1,1900.0,107.4,-33.61
+2025-12-01,December,Q4,2025,South,Dallas,Carlos Santana,Electronics,"4K IPS Monitor 27""",8,450.0,3600.0,2320.0,1280.0,35.56,Existing,Online,4003.16,3600.0,89.93,-15.51
+2025-12-02,December,Q4,2025,East,Philadelphia,Emily Watson,Electronics,UltraBook Pro 15,6,1250.0,7500.0,5100.0,2400.0,32.0,Existing,Online,9114.41,7500.0,82.29,76.02
+2025-12-02,December,Q4,2025,East,Charlotte,Emily Watson,Electronics,UltraBook Pro 15,5,1250.0,6250.0,4250.0,2000.0,32.0,New,Offline,7463.61,6250.0,83.74,46.69
+2025-12-02,December,Q4,2025,East,Philadelphia,Emily Watson,Electronics,"4K IPS Monitor 27""",13,450.0,5850.0,3770.0,2080.0,35.56,New,Offline,7141.05,5850.0,81.92,37.3
+2025-12-03,December,Q4,2025,East,Washington DC,Emily Watson,Furniture,Executive Ergonomic Chair,8,380.0,3040.0,1760.0,1280.0,42.11,Existing,Online,2830.06,3040.0,107.42,6.22
+2025-12-04,December,Q4,2025,West,San Francisco,Alex Rivera,Electronics,"4K IPS Monitor 27""",4,450.0,1800.0,1160.0,640.0,35.56,Existing,Online,1806.5,1800.0,99.64,-57.75
+2025-12-04,December,Q4,2025,South,Dallas,Carlos Santana,Furniture,Modular Conference Table,2,1150.0,2300.0,1440.0,860.0,37.39,New,Offline,2702.05,2300.0,85.12,-19.63
+2025-12-05,December,Q4,2025,North,New York,David Miller,Furniture,Executive Ergonomic Chair,4,380.0,1520.0,880.0,640.0,42.11,Existing,Offline,1574.45,1520.0,96.54,-46.89
+2025-12-06,December,Q4,2025,West,Seattle,Alex Rivera,Furniture,Electric Standing Desk,1,680.0,680.0,410.0,270.0,39.71,Existing,Offline,658.16,680.0,103.32,-76.24
+2025-12-07,December,Q4,2025,East,Charlotte,Emily Watson,Electronics,"4K IPS Monitor 27""",2,450.0,900.0,580.0,320.0,35.56,Existing,Online,860.4,900.0,104.6,-78.88
+2025-12-08,December,Q4,2025,South,Miami,Marcus Vance,Furniture,Modular Conference Table,5,1150.0,5750.0,3600.0,2150.0,37.39,Existing,Offline,4983.71,5750.0,115.38,100.92
+2025-12-10,December,Q4,2025,East,Charlotte,James Wilson,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,New,Online,2330.53,1900.0,81.53,-33.61
+2025-12-10,December,Q4,2025,South,Miami,Carlos Santana,Electronics,UltraBook Pro 15,7,1250.0,8750.0,5950.0,2800.0,32.0,Existing,Offline,10831.06,8750.0,80.79,105.36
+2025-12-10,December,Q4,2025,North,Chicago,David Miller,Electronics,Wireless ANC Headphones,12,250.0,3000.0,1680.0,1320.0,44.0,New,Offline,3408.28,3000.0,88.02,-29.59
+2025-12-11,December,Q4,2025,West,San Francisco,Chloe Bennett,Furniture,Modular Conference Table,6,1150.0,6900.0,4320.0,2580.0,37.39,New,Offline,8406.5,6900.0,82.08,141.1
+2025-12-11,December,Q4,2025,East,Washington DC,James Wilson,Office Supplies,Laser Multifunction Printer,5,340.0,1700.0,1075.0,625.0,36.76,Existing,Online,1641.92,1700.0,103.54,-4.85
+2025-12-14,December,Q4,2025,West,San Francisco,Alex Rivera,Office Supplies,Heavy-Duty Paper Shredder,8,165.0,1320.0,760.0,560.0,42.42,New,Offline,1580.13,1320.0,83.54,-26.12
+2025-12-14,December,Q4,2025,West,San Francisco,Alex Rivera,Furniture,Electric Standing Desk,4,680.0,2720.0,1640.0,1080.0,39.71,Existing,Offline,2901.91,2720.0,93.73,-4.96
+2025-12-14,December,Q4,2025,South,Dallas,Marcus Vance,Accessories,Mechanical Ergonomic Keyboard,24,135.0,3240.0,1560.0,1680.0,51.85,Existing,Online,3245.53,3240.0,99.83,79.95
+2025-12-15,December,Q4,2025,East,Charlotte,Emily Watson,Accessories,Precision Wireless Mouse,27,75.0,2025.0,945.0,1080.0,53.33,Existing,Online,2177.37,2025.0,93.0,12.47
+2025-12-15,December,Q4,2025,South,Atlanta,Carlos Santana,Office Supplies,Heavy-Duty Paper Shredder,6,165.0,990.0,570.0,420.0,42.42,Existing,Offline,919.16,990.0,107.71,-44.59
+2025-12-18,December,Q4,2025,North,New York,Sarah Jenkins,Office Supplies,Laser Multifunction Printer,3,340.0,1020.0,645.0,375.0,36.76,New,Offline,1060.06,1020.0,96.22,-42.91
+2025-12-19,December,Q4,2025,West,Los Angeles,Alex Rivera,Electronics,Wireless ANC Headphones,22,250.0,5500.0,3080.0,2420.0,44.0,New,Offline,6020.04,5500.0,91.36,29.08
+2025-12-20,December,Q4,2025,North,Boston,David Miller,Office Supplies,Heavy-Duty Paper Shredder,8,165.0,1320.0,760.0,560.0,42.42,New,Online,1624.22,1320.0,81.27,-26.12
+2025-12-22,December,Q4,2025,North,New York,David Miller,Electronics,Wireless ANC Headphones,5,250.0,1250.0,700.0,550.0,44.0,Existing,Offline,1260.62,1250.0,99.16,-70.66
+2025-12-28,December,Q4,2025,South,Miami,Carlos Santana,Accessories,Precision Wireless Mouse,12,75.0,900.0,420.0,480.0,53.33,Existing,Online,974.81,900.0,92.33,-50.01
+2025-12-28,December,Q4,2025,West,San Francisco,Alex Rivera,Furniture,Executive Ergonomic Chair,5,380.0,1900.0,1100.0,800.0,42.11,Existing,Offline,2019.53,1900.0,94.08,-33.61
+2025-12-29,December,Q4,2025,East,Philadelphia,James Wilson,Office Supplies,High-Capacity Toner Cartridge,9,95.0,855.0,405.0,450.0,52.63,Existing,Online,868.41,855.0,98.46,-52.14
+2025-12-30,December,Q4,2025,West,San Francisco,Alex Rivera,Furniture,Modular Conference Table,5,1150.0,5750.0,3600.0,2150.0,37.39,New,Online,6323.43,5750.0,90.93,100.92
+2025-12-31,December,Q4,2025,West,San Francisco,Chloe Bennett,Accessories,Mechanical Ergonomic Keyboard,15,135.0,2025.0,975.0,1050.0,51.85,Existing,Online,1956.44,2025.0,103.5,12.47
