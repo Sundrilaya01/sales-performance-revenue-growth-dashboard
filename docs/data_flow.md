@@ -1,52 +1,66 @@
-# Data Flow & Pipeline Architecture
+# Data Flow and Pipeline Architecture
 
-## 1. End-to-End Data Pipeline
+## 1. End-to-End Pipeline Sequence
 
-```mermaid
-sequenceDiagram
-    autonumber
-    participant SRC as Raw Source Data
-    participant ETL as Extraction & Power Query / Python ETL
-    participant DWH as Star Schema Model (Facts & Dims)
-    participant CALC as Calculation Engine (DAX / Metrics)
-    participant MODEL as ML Forecasting & Intelligence
-    participant REP as Power BI Visuals & Reports
-
-    SRC->>ETL: Ingest raw sales, product, customer & geographic records
-    ETL->>ETL: Type casting, null-handling, deduplication, surrogate keys
-    ETL->>DWH: Load sanitized tables (Fact_Sales, Dim_Customer, etc.)
-    DWH->>CALC: Aggregate transactions into dynamic business measures
-    DWH->>MODEL: Extract time-series features & customer history
-    MODEL->>DWH: Output forecast trends & predicted growth bands
-    CALC->>REP: Feed KPIs, ratios, and summary cards
-    MODEL->>REP: Feed predictive charts & scenario analysis
+```
+[Raw CSV Source]
+       |
+       v (scripts/clean_and_prepare_data.py)
+[Transformation & Schema Synthesis]
+       |
+       +---> [scripts/validate_cleaning.py: Parity Check $0.00 delta]
+       |
+       v (Exports to data/processed/)
+[Star Schema: Fact_Sales + 5 Dimensions]
+       |
+       +---> [Power BI Semantic Model (scripts/power_query_importer.m)]
+       |            |
+       |            v
+       |     [11 DAX Measures (scripts/dax_measures.dax)]
+       |            |
+       |            v
+       |     [Power BI Visuals & Canvas Grid]
+       |
+       +---> [Statistical Forecasting Engine (scripts/forecast_engine.py)]
+       |            |
+       |            v
+       |     [revenue_forecast_h1_2026.csv (MAPE 30.16%)]
+       |
+       `---> [scripts/generate_web_data.py]
+                    |
+                    v
+             [web/data.js -> Interactive Web Dashboard (localhost:8050)]
 ```
 
 ---
 
 ## 2. Pipeline Stages
 
-### Stage 1: Extraction & Ingestion
-- Ingest raw transactional files with proper encoding and schema detection.
-- Log raw record counts and integrity checksums before transformation.
+### Stage 1: Ingestion
+* Ingests `data/raw/sales_performance_dataset.csv` into Pandas memory.
+* Audits raw column schemas and total line-item count (600 transactions).
 
-### Stage 2: Transformation & Cleansing (ETL)
-- **Deduplication:** Remove repeated transaction IDs.
-- **Null & Anomaly Imputation:** Handle missing customer IDs, price discrepancies, and negative quantities where applicable.
-- **Normalization:** Enforce standardized ISO dates (`YYYY-MM-DD`), phone/email formats, and currency conversions.
-- **Surrogate Keys:** Generate surrogate keys for SCD (Slowly Changing Dimensions) where applicable.
+### Stage 2: Cleansing, Normalization, and Surrogate Key Synthesis
+* Standardizes dates into ISO `YYYY-MM-DD` and generates integer foreign keys (`date_key`).
+* Synthesizes deterministic transaction keys (`order_id`: `ORD-YYYY-XXXX`).
+* Normalizes product SKU properties into standard costs and selling prices.
+* Aggregates customer profiles into 48 distinct account profiles.
+* Generates a continuous calendar table across all 731 calendar days in 2024 to 2025.
 
-### Stage 3: Data Model Formulation (Star Schema)
-- **Fact Tables:**
-  - `Fact_Sales`: Transaction ID, DateKey, CustomerKey, ProductKey, RegionKey, Units, UnitPrice, Discount, TotalRevenue, Margin.
-- **Dimension Tables:**
-  - `Dim_Date`: DateKey, FullDate, Year, Quarter, Month, MonthName, Week, DayOfWeek, IsWeekend.
-  - `Dim_Customer`: CustomerKey, CustomerID, CustomerName, Segment, Country, JoinDate.
-  - `Dim_Product`: ProductKey, ProductID, ProductName, Category, SubCategory, UnitCost, BasePrice.
-  - `Dim_Region`: RegionKey, Territory, Country, RegionName, Manager.
+### Stage 3: Dimensional Model Formulation (Star Schema)
+* Exports 6 partitioned CSV tables to `data/processed/`:
+  * `fact_sales.csv` (Fact table, 600 rows)
+  * `dim_products.csv` (12 rows)
+  * `dim_customers.csv` (48 rows)
+  * `dim_date.csv` (731 rows)
+  * `dim_sales_reps.csv` (8 rows)
+  * `dim_regions.csv` (4 rows)
+* Automated gatekeeper (`scripts/validate_cleaning.py`) confirms row count parity and exact $0.00 delta across Revenue, Cost, and Profit.
 
-### Stage 4: Semantic Layer & Metrics Derivation
-- DAX measures evaluating contextual filters (Time Intelligence, YoY, MoM, Cumulative Totals).
+### Stage 4: Analytical Calculations and Forecasting
+* **DAX Layer:** Evaluates dynamic aggregation and time intelligence across user-selected slicer contexts.
+* **Forecasting Layer:** Runs Holt-Winters Damped ETS modeling, executes holdout backtesting, and exports 6-month projections with 95% confidence intervals to `data/processed/revenue_forecast_h1_2026.csv`.
 
-### Stage 5: Reporting & Export
-- Visualization consumption, drill-through paths, and automated data refresh.
+### Stage 5: Presentation and Delivery
+* **Power BI Desktop:** Connects via Power Query M expressions, applies theme styling, and displays executive visuals.
+* **Web Dashboard:** Reads aggregated JSON/JS data structures and renders interactive charts on `http://localhost:8050`.

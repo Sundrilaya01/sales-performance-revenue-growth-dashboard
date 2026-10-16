@@ -1,7 +1,7 @@
 # DAX Measures & KPI Library
 
 **Project:** Sales Performance & Revenue Growth Dashboard  
-**Phase:** Phase 4 — DAX Measures and KPI Validation  
+**Phase:** Phase 4  -  DAX Measures and KPI Validation  
 **Role:** Senior Power BI Developer and DAX Specialist  
 **Status:** Validated Technical Specification & DAX Definitions  
 

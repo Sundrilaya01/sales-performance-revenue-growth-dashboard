@@ -1,7 +1,7 @@
 # Predictive Forecasting & Revenue Growth Analysis
 
 **Project:** Sales Performance & Revenue Growth Dashboard  
-**Phase:** Phase 6 — Forecasting and Growth Analysis  
+**Phase:** Phase 6  -  Forecasting and Growth Analysis  
 **Role:** Senior Business Intelligence Analyst and Forecasting Engineer  
 **Status:** Validated Time-Series Projections & Business Insights  
 
@@ -45,7 +45,7 @@ $$\text{Upper Bound}_{t+h} = \hat{y}_{t+h} + 1.96 \cdot \sigma_e \sqrt{1 + 0.15(
 
 ## 3. Holdout Backtesting & Model Evaluation
 
-To evaluate model generalization without lookahead bias, the series was split into an **18-month training partition** (Jan 2024 – Jun 2025) and a **6-month holdout test partition** (Jul 2025 – Dec 2025).
+To evaluate model generalization without lookahead bias, the series was split into an **18-month training partition** (Jan 2024 - Jun 2025) and a **6-month holdout test partition** (Jul 2025 - Dec 2025).
 
 | Model Evaluated | Model Strategy | MAE ($) | RMSE ($) | MAPE (%) | Status vs Baseline |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -81,10 +81,10 @@ Exported to [`data/processed/revenue_forecast_h1_2026.csv`](file:///d:/Power%20B
 
 ### Insight 2: Quarterly End-of-Period Velocity Surges
 * **Evidence:** Recurring sales spikes consistently manifest near quarter-ends:
-  - Q1 2024 Close (March): **$88,565.00** (38 orders) — highest month of 2024.
+  - Q1 2024 Close (March): **$88,565.00** (38 orders)  -  highest month of 2024.
   - Q4 2024 Close (December): **$52,960.00** vs. November ($44,075.00).
   - Q3 2025 Surge (July): **$98,220.00** (34 orders).
-  - Q4 2025 High (October): **$143,790.00** (39 orders) — single highest month in historical record.
+  - Q4 2025 High (October): **$143,790.00** (39 orders)  -  single highest month in historical record.
 * **Operational Implication:** Commercial sales reps appear motivated by quarterly quota attainment thresholds, resulting in concentrated deal closures during final calendar weeks.
 
 ### Insight 3: Electronics Volume vs. Accessories Profitability

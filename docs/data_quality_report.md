@@ -1,7 +1,7 @@
 # Data Quality & Cleansing Report
 
 **Project:** Sales Performance & Revenue Growth Dashboard  
-**Phase:** Phase 2 — Data Collection & Preparation  
+**Phase:** Phase 2  -  Data Collection & Preparation  
 **Author:** Senior Data Engineer  
 **Date:** 2026-10-16  
 
@@ -53,13 +53,13 @@ This report documents the quality audit, cleansing rules, normalization, and rec
 | Table Name | Output Path | Rows (Before) | Rows (After) | Columns | Primary Key |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Raw Source** | `data/raw/sales_performance_dataset.csv` | 600 | 600 (Unchanged) | 21 | None |
-| **Fact_Sales** | `data/processed/fact_sales.csv` | — | 600 | 17 | `order_id` |
-| **Dim_Products** | `data/processed/dim_products.csv` | — | 12 | 7 | `product_id` |
-| **Dim_Customers**| `data/processed/dim_customers.csv` | — | 48 | 6 | `customer_id` |
-| **Dim_Sales_Reps**| `data/processed/dim_sales_reps.csv` | — | 8 | 3 | `rep_id` |
-| **Dim_Regions** | `data/processed/dim_regions.csv` | — | 4 | 3 | `region_id` |
-| **Dim_Date** | `data/processed/dim_date.csv` | — | 731 | 12 | `date_key` |
-| **Consolidated** | `data/processed/cleaned_sales_consolidated.csv`| — | 600 | 26 | `order_id` |
+| **Fact_Sales** | `data/processed/fact_sales.csv` |  -  | 600 | 17 | `order_id` |
+| **Dim_Products** | `data/processed/dim_products.csv` |  -  | 12 | 7 | `product_id` |
+| **Dim_Customers**| `data/processed/dim_customers.csv` |  -  | 48 | 6 | `customer_id` |
+| **Dim_Sales_Reps**| `data/processed/dim_sales_reps.csv` |  -  | 8 | 3 | `rep_id` |
+| **Dim_Regions** | `data/processed/dim_regions.csv` |  -  | 4 | 3 | `region_id` |
+| **Dim_Date** | `data/processed/dim_date.csv` |  -  | 731 | 12 | `date_key` |
+| **Consolidated** | `data/processed/cleaned_sales_consolidated.csv`|  -  | 600 | 26 | `order_id` |
 
 ---
 
@@ -92,13 +92,13 @@ This report documents the quality audit, cleansing rules, normalization, and rec
 
 ## 7. Automated Test Suite Execution Summary
 Automated verification executed via `scripts/validate_cleaning.py`:
-- `TC-VAL-01`: Raw source file preservation and immutability — **PASS**
-- `TC-VAL-02`: Processed output tables existence (7 files) — **PASS**
-- `TC-VAL-03`: Fact table row count parity with raw source (600 rows) — **PASS**
-- `TC-VAL-04`: Fact_Sales `order_id` uniqueness and non-null (600/600) — **PASS**
-- `TC-VAL-05`: Dimension tables primary key uniqueness (100% unique) — **PASS**
-- `TC-VAL-06`: Referential integrity across all Star Schema relationships (0 orphans) — **PASS**
-- `TC-VAL-07`: Line-item Sales Amount = Units Sold * Unit Price ($Delta = 0.00$) — **PASS**
-- `TC-VAL-08`: Line-item Profit = Sales Amount - Cost ($Delta = 0.00$) — **PASS**
-- `TC-VAL-09`: Macro Financial Totals Reconciliation ($Delta = $0.00) — **PASS**
-- `TC-VAL-10`: Continuous Dim_Date calendar coverage without gaps (731 days) — **PASS**
+- `TC-VAL-01`: Raw source file preservation and immutability  -  **PASS**
+- `TC-VAL-02`: Processed output tables existence (7 files)  -  **PASS**
+- `TC-VAL-03`: Fact table row count parity with raw source (600 rows)  -  **PASS**
+- `TC-VAL-04`: Fact_Sales `order_id` uniqueness and non-null (600/600)  -  **PASS**
+- `TC-VAL-05`: Dimension tables primary key uniqueness (100% unique)  -  **PASS**
+- `TC-VAL-06`: Referential integrity across all Star Schema relationships (0 orphans)  -  **PASS**
+- `TC-VAL-07`: Line-item Sales Amount = Units Sold * Unit Price ($Delta = 0.00$)  -  **PASS**
+- `TC-VAL-08`: Line-item Profit = Sales Amount - Cost ($Delta = 0.00$)  -  **PASS**
+- `TC-VAL-09`: Macro Financial Totals Reconciliation ($Delta = $0.00)  -  **PASS**
+- `TC-VAL-10`: Continuous Dim_Date calendar coverage without gaps (731 days)  -  **PASS**

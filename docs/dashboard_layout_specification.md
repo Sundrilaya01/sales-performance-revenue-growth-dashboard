@@ -1,10 +1,10 @@
 # Power BI Dashboard Layout & Visual Specification
 
 **Project:** Sales Performance & Revenue Growth Dashboard  
-**Phase:** Phase 5 — Dashboard Development  
+**Phase:** Phase 5  -  Dashboard Development  
 **Role:** Senior Power BI Report Developer and Dashboard Designer  
 **Page Title:** Executive Sales & Revenue Overview  
-**Canvas Resolution:** 16:9 Widescreen (1280 × 720 px / 1920 × 1080 px scaled)  
+**Canvas Resolution:** 16:9 Widescreen (1280 x 720 px / 1920 x 1080 px scaled)  
 **Theme:** `scripts/powerbi_theme.json` (Corporate Executive Slate & Navy)  
 
 ---
@@ -34,7 +34,7 @@
 
 ## 2. Visual Inventory & Field Well Configuration
 
-### Section A: Top Row — Executive KPI Cards
+### Section A: Top Row  -  Executive KPI Cards
 
 | Card ID | Visual Title | Primary Measure | Callout Font & Format | Secondary Subtitle / Indicator | Target Value (Unfiltered) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -45,7 +45,7 @@
 
 ---
 
-### Section B: Middle Row — Trends & Dimensional Performance
+### Section B: Middle Row  -  Trends & Dimensional Performance
 
 #### Visual 5: Monthly Revenue Trend & Prior-Year Benchmark
 * **Visual Type:** Line and Clustered Column Chart (or Line Chart with 2 series)
@@ -73,7 +73,7 @@
 
 ---
 
-### Section C: Bottom Row — Granular Matrix & Segmentation
+### Section C: Bottom Row  -  Granular Matrix & Segmentation
 
 #### Visual 8: Product Performance Matrix
 * **Visual Type:** Matrix / Table

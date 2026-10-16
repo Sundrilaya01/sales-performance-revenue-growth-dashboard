@@ -1,7 +1,7 @@
 # Power BI Data Model Specification (Star Schema)
 
 **Project:** Sales Performance & Revenue Growth Dashboard  
-**Phase:** Phase 3 — Data Modeling  
+**Phase:** Phase 3  -  Data Modeling  
 **Role:** Senior Power BI Data Modeler  
 **Status:** Validated Technical Specification & Ingestion Blueprint  
 
